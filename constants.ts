@@ -11,7 +11,7 @@ export const CATEGORIES: Category[] = [
 export const INITIAL_APPS: App[] = [
   {
     id: 1,
-    name: 'FPT Play',
+    name: 'Imedia',
     icon: 'https://picsum.photos/seed/fptplay/200/200',
     category: Category.TV,
     description: 'Ứng dụng xem truyền hình, phim truyện và thể thao hàng đầu Việt Nam.',
