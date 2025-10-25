@@ -2,6 +2,8 @@ import React, { useState, useCallback } from 'react';
 import CategoryList from './components/CategoryList';
 import NotificationToast from './components/NotificationToast';
 import AppDetailModal from './components/AppDetailModal';
+import UploadAppModal from './components/UploadAppModal';
+import PlusIcon from './components/icons/PlusIcon';
 import { INITIAL_APPS, CATEGORIES } from './constants';
 import type { App as AppType } from './types';
 
@@ -9,6 +11,7 @@ const App: React.FC = () => {
   const [apps, setApps] = useState<AppType[]>(INITIAL_APPS);
   const [notificationApp, setNotificationApp] = useState<AppType | null>(null);
   const [selectedApp, setSelectedApp] = useState<AppType | null>(null);
+  const [isUploadModalOpen, setIsUploadModalOpen] = useState(false);
 
 
   const handleInstall = useCallback((id: number) => {
@@ -40,6 +43,17 @@ const App: React.FC = () => {
     setSelectedApp(null);
   }
 
+  const handleUpload = useCallback((newApp: Omit<AppType, 'id' | 'installed'>) => {
+    setApps(prevApps => [
+      ...prevApps,
+      {
+        ...newApp,
+        id: Date.now(), // Generate a unique ID
+        installed: false
+      }
+    ]);
+  }, []);
+
 
   return (
     <div className="min-h-screen bg-slate-900 font-sans">
@@ -49,6 +63,13 @@ const App: React.FC = () => {
             <span className="text-white">Bao</span>
             <span className="text-cyan-400">Store</span>
           </h1>
+          <button
+            onClick={() => setIsUploadModalOpen(true)}
+            className="flex items-center space-x-2 px-4 py-2 bg-cyan-600 text-white font-semibold rounded-md hover:bg-cyan-500 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-white"
+          >
+            <PlusIcon className="w-5 h-5" />
+            <span>Tải lên</span>
+          </button>
         </div>
       </header>
 
@@ -70,6 +91,12 @@ const App: React.FC = () => {
           onInstall={handleInstall}
         />
       )}
+
+      <UploadAppModal
+        isOpen={isUploadModalOpen}
+        onClose={() => setIsUploadModalOpen(false)}
+        onUpload={handleUpload}
+      />
 
       {notificationApp && (
         <NotificationToast 
