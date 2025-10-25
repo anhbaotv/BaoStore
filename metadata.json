@@ -1,5 +1,0 @@
-{
-  "name": "BaoStore - Android TV App Store",
-  "description": "An Android TV app store interface where users can browse and 'install' applications across various categories like Television, Movies, Sports, and Utilities. It also includes a feature to upload new applications with AI-generated descriptions.",
-  "requestFramePermissions": []
-}
