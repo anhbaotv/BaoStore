@@ -1,9 +1,9 @@
 
 import React, { useState, useCallback } from 'react';
-import { generateAppDescription } from '../services/geminiService';
-import type { App } from '../types';
-import { Category } from '../types';
-import SparklesIcon from './icons/SparklesIcon';
+import { generateAppDescription } from '../services/geminiService.ts';
+import type { App } from '../types.ts';
+import { Category } from '../types.ts';
+import SparklesIcon from './icons/SparklesIcon.tsx';
 
 interface UploadAppModalProps {
   isOpen: boolean;

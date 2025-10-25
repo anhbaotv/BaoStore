@@ -1,7 +1,7 @@
 import React from 'react';
-import AppCard from './AppCard';
-import type { App } from '../types';
-import type { Category as CategoryType } from '../types';
+import AppCard from './AppCard.tsx';
+import type { App } from '../types.ts';
+import type { Category as CategoryType } from '../types.ts';
 
 interface CategoryListProps {
   category: CategoryType;

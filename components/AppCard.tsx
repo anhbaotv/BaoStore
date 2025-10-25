@@ -1,5 +1,5 @@
 import React from 'react';
-import type { App } from '../types';
+import type { App } from '../types.ts';
 
 interface AppCardProps {
   app: App;

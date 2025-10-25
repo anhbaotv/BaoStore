@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import type { App } from '../types';
+import type { App } from '../types.ts';
 
 interface NotificationToastProps {
   app: App;

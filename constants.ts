@@ -1,5 +1,5 @@
 
-import { App, Category } from './types';
+import { App, Category } from './types.ts';
 
 export const CATEGORIES: Category[] = [
   Category.TV,

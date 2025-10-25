@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { App } from '../types';
+import type { App } from '../types.ts';
 
 interface AppDetailModalProps {
   app: App;
