@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-g" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BaoStore - Android TV App Store</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Babel to transpile JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <style>
       body {
         -webkit-font-smoothing: antialiased;
@@ -38,7 +40,8 @@
 </head>
   <body class="bg-slate-900 text-white">
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Change script type to text/babel so Babel can transpile it -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
