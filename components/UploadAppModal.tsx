@@ -8,26 +8,37 @@ import SparklesIcon from './icons/SparklesIcon.tsx';
 interface UploadAppModalProps {
   isOpen: boolean;
   onClose: () => void;
-  onUpload: (newApp: Omit<App, 'id' | 'installed'>) => void;
+  onUpload: (newApp: Omit<App, 'id' | 'installed' | 'apkUrl' | 'apk'> & { iconFile: File, apkFile: File }) => void;
 }
 
 const UploadAppModal: React.FC<UploadAppModalProps> = ({ isOpen, onClose, onUpload }) => {
   const [appName, setAppName] = useState('');
   const [category, setCategory] = useState<Category>(Category.Utilities);
   const [description, setDescription] = useState('');
-  const [icon, setIcon] = useState<string | null>(null);
+  const [iconFile, setIconFile] = useState<File | null>(null);
+  const [iconPreview, setIconPreview] = useState<string | null>(null);
+  const [apkFile, setApkFile] = useState<File | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState('');
 
   const handleIconChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
+      const file = e.target.files[0];
+      setIconFile(file);
+
       const reader = new FileReader();
       reader.onload = (event) => {
         if (event.target && typeof event.target.result === 'string') {
-          setIcon(event.target.result);
+          setIconPreview(event.target.result);
         }
       };
-      reader.readAsDataURL(e.target.files[0]);
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleApkChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files[0]) {
+        setApkFile(e.target.files[0]);
     }
   };
 
@@ -50,11 +61,11 @@ const UploadAppModal: React.FC<UploadAppModalProps> = ({ isOpen, onClose, onUplo
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!appName || !icon || !description) {
-      setError('Vui lòng điền đầy đủ thông tin.');
+    if (!appName || !iconFile || !description || !apkFile) {
+      setError('Vui lòng điền đầy đủ thông tin, chọn icon và tệp APK.');
       return;
     }
-    onUpload({ name: appName, category, description, icon });
+    onUpload({ name: appName, category, description, icon: iconFile.name, iconFile, apkFile });
     resetForm();
     onClose();
   };
@@ -63,7 +74,9 @@ const UploadAppModal: React.FC<UploadAppModalProps> = ({ isOpen, onClose, onUplo
     setAppName('');
     setCategory(Category.Utilities);
     setDescription('');
-    setIcon(null);
+    setIconFile(null);
+    setIconPreview(null);
+    setApkFile(null);
     setError('');
   }
 
@@ -100,9 +113,16 @@ const UploadAppModal: React.FC<UploadAppModalProps> = ({ isOpen, onClose, onUplo
           <div>
             <label htmlFor="icon" className="block text-sm font-medium text-slate-300">Biểu tượng (Icon)</label>
             <div className="mt-1 flex items-center space-x-4">
-              {icon ? <img src={icon} alt="Icon preview" className="w-16 h-16 rounded-md object-cover" /> : <div className="w-16 h-16 rounded-md bg-slate-700 flex items-center justify-center text-slate-500">Preview</div>}
+              {iconPreview ? <img src={iconPreview} alt="Icon preview" className="w-16 h-16 rounded-md object-cover" /> : <div className="w-16 h-16 rounded-md bg-slate-700 flex items-center justify-center text-slate-500">Preview</div>}
               <input type="file" id="icon" onChange={handleIconChange} accept="image/*" className="block w-full text-sm text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-cyan-600 file:text-white hover:file:bg-cyan-500" required />
             </div>
+          </div>
+           <div>
+            <label htmlFor="apkFile" className="block text-sm font-medium text-slate-300">Tệp APK</label>
+             <div className="mt-1 flex items-center">
+                <input type="file" id="apkFile" onChange={handleApkChange} accept=".apk" className="block w-full text-sm text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-cyan-600 file:text-white hover:file:bg-cyan-500" required />
+             </div>
+             {apkFile && <p className="text-xs text-slate-400 mt-2">Đã chọn: {apkFile.name}</p>}
           </div>
           <div className="flex justify-end space-x-4 pt-4">
             <button type="button" onClick={onClose} className="px-4 py-2 bg-slate-600 text-white rounded-md hover:bg-slate-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white">Hủy</button>

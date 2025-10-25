@@ -1,4 +1,5 @@
-import React, { useState, useCallback } from 'react';
+
+import React, { useState, useCallback, useEffect } from 'react';
 import CategoryList from './components/CategoryList.tsx';
 import NotificationToast from './components/NotificationToast.tsx';
 import AppDetailModal from './components/AppDetailModal.tsx';
@@ -6,36 +7,76 @@ import UploadAppModal from './components/UploadAppModal.tsx';
 import PasswordModal from './components/PasswordModal.tsx';
 import PlusIcon from './components/icons/PlusIcon.tsx';
 import SearchIcon from './components/icons/SearchIcon.tsx';
-import { INITIAL_APPS, CATEGORIES } from './constants.ts';
+import { CATEGORIES } from './constants.ts';
 import type { App as AppType } from './types.ts';
+import { initDB, getApps, saveApp } from './services/dbService.ts';
 
 const App: React.FC = () => {
-  const [apps, setApps] = useState<AppType[]>(INITIAL_APPS);
+  const [apps, setApps] = useState<AppType[]>([]);
+  const [dbReady, setDbReady] = useState(false);
   const [notificationApp, setNotificationApp] = useState<AppType | null>(null);
   const [selectedApp, setSelectedApp] = useState<AppType | null>(null);
   const [isUploadModalOpen, setIsUploadModalOpen] = useState(false);
   const [isPasswordModalOpen, setIsPasswordModalOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
+  useEffect(() => {
+    const initialize = async () => {
+        const success = await initDB();
+        if (success) {
+            const storedApps = await getApps();
+            setApps(storedApps);
+            setDbReady(true);
+        }
+    };
+    initialize();
+  }, []);
 
-  const handleInstall = useCallback((id: number) => {
-    let installedApp: AppType | undefined;
+
+  const handleDownload = useCallback((appToDownload: AppType) => {
+    let url: string | undefined;
+    
+    if (appToDownload.apk instanceof File) {
+        url = URL.createObjectURL(appToDownload.apk);
+    } else if (appToDownload.apkUrl) {
+        url = appToDownload.apkUrl;
+    }
+
+    if (!url) {
+      alert("Ứng dụng này không có tệp APK để tải xuống.");
+      return;
+    }
+
+    const link = document.createElement('a');
+    link.href = url;
+    const fileName = `${appToDownload.name.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.apk`;
+    link.setAttribute('download', fileName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Revoke object URL to free up memory if it was created
+    if (appToDownload.apk instanceof File) {
+        URL.revokeObjectURL(url);
+    }
+    
+    // Close the detail modal after download
+    setSelectedApp(prev => prev && prev.id === appToDownload.id ? {...prev, installed: true} : prev);
+
+    // Give visual feedback
+    let downloadedApp: AppType | undefined;
     setApps(prevApps =>
       prevApps.map(app => {
-        if (app.id === id && !app.installed) {
+        if (app.id === appToDownload.id) {
           const updatedApp = { ...app, installed: true };
-          installedApp = updatedApp;
+          downloadedApp = updatedApp;
           return updatedApp;
         }
         return app;
       })
     );
-    
-    // Close the detail modal after install
-    setSelectedApp(prev => prev && prev.id === id ? {...prev, installed: true} : prev);
-
-    if (installedApp) {
-        setNotificationApp(installedApp);
+    if (downloadedApp) {
+        setNotificationApp(downloadedApp);
     }
   }, []);
 
@@ -47,20 +88,35 @@ const App: React.FC = () => {
     setSelectedApp(null);
   }
 
-  const handleUpload = useCallback((newApp: Omit<AppType, 'id' | 'installed'>) => {
-    setApps(prevApps => [
-      ...prevApps,
-      {
-        ...newApp,
+  const handleUpload = useCallback(async (newApp: Omit<AppType, 'id' | 'installed'> & { iconFile: File, apkFile: File }) => {
+    const appToSave: AppType = {
+        name: newApp.name,
+        icon: newApp.iconFile,
+        category: newApp.category,
+        description: newApp.description,
+        apk: newApp.apkFile,
         id: Date.now(), // Generate a unique ID
         installed: false
-      }
-    ]);
+    };
+
+    await saveApp(appToSave);
+    setApps(prevApps => [...prevApps, appToSave]);
   }, []);
 
   const filteredApps = apps.filter(app =>
     app.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
+
+  if (!dbReady) {
+    return (
+        <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+            <div className="text-center">
+                <div className="w-16 h-16 border-4 border-cyan-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+                <p className="text-slate-300 mt-4 text-lg">Đang tải cơ sở dữ liệu...</p>
+            </div>
+        </div>
+    )
+  }
 
 
   return (
@@ -127,7 +183,7 @@ const App: React.FC = () => {
         <AppDetailModal
           app={selectedApp}
           onClose={handleCloseModal}
-          onInstall={handleInstall}
+          onDownload={handleDownload}
         />
       )}
 

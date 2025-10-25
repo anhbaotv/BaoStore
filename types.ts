@@ -9,8 +9,10 @@ export enum Category {
 export interface App {
   id: number;
   name:string;
-  icon: string;
+  icon: string | File; // Can be a URL string or a File object
   category: Category;
   description: string;
   installed?: boolean;
+  apk?: File; // Store the APK as a File object
+  apkUrl?: string; // Keep for initial apps
 }
