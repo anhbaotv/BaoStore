@@ -1,0 +1,963 @@
+// Tệp main.dart hoàn chỉnh cho Kho ứng dụng TV bằng Flutter
+// Toàn bộ ứng dụng được chứa trong tệp này.
+import 'package:flutter/material.dart';
+// --- THAY ĐỔI: Thêm thư viện HTTP và Convert ---
+// Bạn cần thêm 'http: ^1.0.0' vào tệp pubspec.yaml
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+// --- DỮ LIỆU GIẢ LẬP ---
+// Chúng ta vẫn giữ các lớp này để định dạng dữ liệu
+class AppInfo {
+  final String id;
+  final String title;
+  final String icon;
+  final double rating;
+  final String version;
+  final String description;
+  final List<String> screenshots;
+  final String downloadUrl;
+
+  AppInfo({
+    required this.id,
+    required this.title,
+    required this.icon,
+    required this.rating,
+    required this.version,
+    required this.description,
+    required this.screenshots,
+    required this.downloadUrl,
+  });
+}
+
+// Chuyển đổi Map thô thành đối tượng AppInfo
+AppInfo _appFromMap(Map<String, dynamic> data) {
+  return AppInfo(
+    id: data['id'],
+    title: data['title'],
+    icon: data['icon'],
+    rating: data['rating'],
+    version: data['version'],
+    description: data['description'],
+    screenshots: List<String>.from(data['screenshots']),
+    downloadUrl: data['downloadUrl'],
+  );
+}
+
+// --- DỮ LIỆU GIẢ LẬP (ĐÃ XÓA) ---
+// Dữ liệu này sẽ được tải từ máy chủ.
+// final Map<String, List<Map<String, dynamic>>> mockDataRaw = { ... };
+// final Map<String, List<AppInfo>> mockData = { ... };
+// final List<AppInfo> allApps = [ ... ];
+
+// --- ỨNG DỤNG FLUTTER ---
+
+void main() {
+  runApp(const MyApp());
+}
+
+// Định nghĩa màu sắc chính
+const Color kPrimaryColor = Color(0xFF1F2937); // Tương đương bg-gray-800
+const Color kBackgroundColor = Color(0xFF111827); // Tương đương bg-gray-900
+const Color kAccentColor = Color(0xFF3B82F6); // Tương đương bg-blue-600
+const Color kTextColor = Colors.white;
+const Color kTextSecondaryColor = Color(0xFF9CA3AF); // Tương đương text-gray-400
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Kho ứng dụng TV',
+      theme: ThemeData(
+        // Cài đặt chủ đề tối
+        brightness: Brightness.dark,
+        primaryColor: kPrimaryColor,
+        scaffoldBackgroundColor: kBackgroundColor,
+        cardColor: const Color(0xFF374151), // Tương đương bg-gray-700
+        textTheme: TextTheme(
+          // Tiêu đề lớn (Header)
+          displayLarge: TextStyle(fontSize: 36, fontWeight: FontWeight.bold, color: kTextColor, fontFamily: 'Inter'),
+          // Tiêu đề hàng (AppCategoryRow)
+          headlineMedium: TextStyle(fontSize: 28, fontWeight: FontWeight.w600, color: kTextColor, fontFamily: 'Inter'),
+          // Tiêu đề thẻ (AppCard)
+          titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: kTextColor, fontFamily: 'Inter'),
+          // Văn bản mô tả (AppDetail)
+          bodyLarge: TextStyle(fontSize: 18, color: kTextColor.withOpacity(0.9), height: 1.5, fontFamily: 'Inter'),
+          // Văn bản phụ (rating, version)
+          bodyMedium: TextStyle(fontSize: 14, color: kTextSecondaryColor, fontFamily: 'Inter'),
+        ),
+        // Tạo kiểu cho nút
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: kAccentColor,
+            foregroundColor: kTextColor,
+            padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 24),
+            textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, fontFamily: 'Inter'),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+        ),
+        // Tạo kiểu cho ô tìm kiếm
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          fillColor: const Color(0xFF374151), // Tương đương bg-gray-700
+          hintStyle: TextStyle(color: kTextSecondaryColor),
+          labelStyle: TextStyle(color: kTextColor),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+            borderSide: BorderSide.none,
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12),
+            borderSide: const BorderSide(color: kAccentColor, width: 2),
+          ),
+        ),
+      ),
+      home: const TvAppHome(),
+    );
+  }
+}
+
+// Widget chính quản lý trạng thái của ứng dụng
+class TvAppHome extends StatefulWidget {
+  const TvAppHome({super.key});
+
+  @override
+  State<TvAppHome> createState() => _TvAppHomeState();
+}
+
+class _TvAppHomeState extends State<TvAppHome> {
+  String _selectedCategory = 'Home';
+  AppInfo? _selectedApp;
+  String _searchTerm = '';
+  final TextEditingController _searchController = TextEditingController();
+
+  // --- THAY ĐỔI: Thêm trạng thái loading và danh sách động ---
+  bool _isLoading = true;
+  String _errorMessage = '';
+  Map<String, List<AppInfo>> _data = {}; // Dữ liệu sẽ được tải vào đây
+  List<AppInfo> _allApps = []; // Danh sách tìm kiếm sẽ được tải vào đây
+
+  @override
+  void initState() {
+    super.initState();
+    _fetchData(); // Bắt đầu tải dữ liệu khi ứng dụng khởi động
+  }
+
+  // --- THAY ĐỔI: Hàm mới để tải dữ liệu từ máy chủ ---
+  Future<void> _fetchData() async {
+    // Đảm bảo widget vẫn còn tồn tại
+    if (!mounted) return;
+
+    setState(() {
+      _isLoading = true;
+      _errorMessage = '';
+    });
+
+    try {
+      // --- QUAN TRỌNG: Thay thế URL này bằng API máy chủ của bạn ---
+      final response = await http.get(Uri.parse(
+          'https://gist.githubusercontent.com/gemini-access/a544c79c5c9338f0d86161406f5922c1/raw/tv_store_api.json'));
+
+      if (response.statusCode == 200) {
+        // Giải mã JSON thô (Map<String, dynamic> với các khóa như 'featured', 'games'...)
+        final Map<String, dynamic> rawData = json.decode(response.body);
+
+        // Chuyển đổi JSON thô thành Map<String, List<AppInfo>>
+        final Map<String, List<AppInfo>> fetchedData = rawData.map(
+          (key, value) {
+            final List<dynamic> appListRaw = value as List<dynamic>;
+            final List<AppInfo> appList = appListRaw
+                .map((appMap) =>
+                    _appFromMap(appMap as Map<String, dynamic>))
+                .toList();
+            return MapEntry(key, appList);
+          },
+        );
+
+        // Tạo danh sách tổng hợp để tìm kiếm
+        final List<AppInfo> allAppsList = fetchedData.values
+            .expand((appList) => appList)
+            .toList()
+            .fold<Map<String, AppInfo>>({}, (map, app) {
+          map.putIfAbsent(app.id, () => app);
+          return map;
+        }).values.toList();
+
+        // Cập nhật trạng thái với dữ liệu mới và tắt loading
+        if (mounted) {
+          setState(() {
+            _data = fetchedData;
+            _allApps = allAppsList;
+            _isLoading = false;
+          });
+        }
+      } else {
+        // Xử lý lỗi máy chủ
+        if (mounted) {
+          setState(() {
+            _errorMessage = 'Không thể tải dữ liệu: Lỗi máy chủ';
+            _isLoading = false;
+          });
+        }
+      }
+    } catch (e) {
+      // Xử lý lỗi mạng/parsing
+      if (mounted) {
+        setState(() {
+          _errorMessage = 'Lỗi kết nối mạng: $e';
+          _isLoading = false;
+        });
+      }
+    }
+  }
+  
+  // --- KẾT THÚC HÀM MỚI ---
+
+  // Hàm chọn một ứng dụng để xem chi tiết
+  void _onAppSelected(AppInfo app) {
+    setState(() {
+      _selectedApp = app;
+    });
+  }
+
+  // Hàm quay lại từ trang chi tiết
+  void _onBack() {
+    setState(() {
+      _selectedApp = null;
+    });
+  }
+
+  // Hàm chọn một danh mục từ thanh bên
+  void _onCategorySelected(String category) {
+    setState(() {
+      _selectedCategory = category;
+      _searchTerm = ''; // Xóa tìm kiếm
+      _searchController.clear(); // Xóa văn bản trong ô tìm kiếm
+      _selectedApp = null; // Quay lại danh sách
+    });
+  }
+
+  // Hàm khi tìm kiếm
+  void _onSearchChanged(String value) {
+    setState(() {
+      _searchTerm = value;
+      _selectedCategory = 'Search';
+      _selectedApp = null;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // Ẩn thanh cuộn trên toàn bộ ứng dụng con
+    return ScrollConfiguration(
+      behavior: ScrollConfiguration.of(context).copyWith(scrollbars: false),
+      child: Scaffold(
+        // --- THAY ĐỔI: Thêm xử lý trạng thái Loading và Lỗi ---
+        body: _isLoading
+            ? const Center(
+                child: CircularProgressIndicator(
+                  color: kAccentColor,
+                ),
+              )
+            : _errorMessage.isNotEmpty
+                ? Center(
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            _errorMessage,
+                            style: Theme.of(context).textTheme.headlineMedium,
+                            textAlign: TextAlign.center,
+                          ),
+                          const SizedBox(height: 20),
+                          ElevatedButton(
+                            onPressed: _fetchData, // Nút thử lại
+                            child: const Text('Thử lại'),
+                          ),
+                        ],
+                      ),
+                    ),
+                  )
+                : Row(
+                    // Nội dung ứng dụng chính khi tải xong
+                    children: [
+                      // Chỉ hiển thị Sidebar nếu không ở trang chi tiết
+                      if (_selectedApp == null)
+                        Sidebar(
+                          selectedCategory: _selectedCategory,
+                          onCategorySelected: _onCategorySelected,
+                        ),
+                      // Đường phân cách
+                      if (_selectedApp == null)
+                        const VerticalDivider(width: 1, color: kPrimaryColor),
+
+                      // Nội dung chính hoặc Chi tiết
+                      Expanded(
+                        child: _selectedApp == null
+                            // Chế độ xem Danh sách/Trang chính
+                            ? Column(
+                                children: [
+                                  Header(
+                                    selectedCategory: _selectedCategory,
+                                    searchTerm: _searchTerm,
+                                    onSearchChanged: _onSearchChanged,
+                                    controller: _searchController,
+                                  ),
+                                  Expanded(
+                                    child: MainContent(
+                                      // --- THAY ĐỔI: Truyền dữ liệu đã tải xuống ---
+                                      data: _data,
+                                      allAppsForSearch: _allApps,
+                                      selectedCategory: _selectedCategory,
+                                      searchTerm: _searchTerm,
+                                      onAppClick: _onAppSelected,
+                                    ),
+                                  ),
+                                ],
+                              )
+                            // Chế độ xem Chi tiết
+                            : AppDetail(
+                                app: _selectedApp!,
+                                onBack: _onBack,
+                              ),
+                      ),
+                    ],
+                  ),
+      ),
+    );
+  }
+}
+
+// --- CÁC WIDGET CON (TƯƠNG ĐƯƠNG COMPONENT) ---
+
+// Thanh điều hướng bên
+class Sidebar extends StatelessWidget {
+  final String selectedCategory;
+  final ValueChanged<String> onCategorySelected;
+
+  const Sidebar({
+    super.key,
+    required this.selectedCategory,
+    required this.onCategorySelected,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 280, // Tăng độ rộng 1 chút
+      color: kPrimaryColor,
+      padding: const EdgeInsets.all(16.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 16.0),
+            child: Text(
+              'TV Store',
+              style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: 32),
+            ),
+          ),
+          const SizedBox(height: 24),
+          NavItem(
+            icon: Icons.home_outlined,
+            label: 'Trang chủ',
+            category: 'Home',
+            selectedCategory: selectedCategory,
+            onCategorySelected: onCategorySelected,
+            autofocus: true, // <-- ĐÃ THÊM: Focus vào "Trang chủ" khi khởi động
+          ),
+          NavItem(
+            icon: Icons.apps_outlined,
+            label: 'Ứng dụng',
+            category: 'Apps',
+            selectedCategory: selectedCategory,
+            onCategorySelected: onCategorySelected,
+          ),
+          NavItem(
+            icon: Icons.gamepad_outlined,
+            label: 'Trò chơi',
+            category: 'Games',
+            selectedCategory: selectedCategory,
+            onCategorySelected: onCategorySelected,
+          ),
+          NavItem(
+            icon: Icons.settings_outlined,
+            label: 'Cài đặt',
+            category: 'Settings',
+            selectedCategory: selectedCategory,
+            onCategorySelected: onCategorySelected,
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+// Mục điều hướng
+class NavItem extends StatelessWidget {
+  final IconData icon;
+  final String label;
+  final String category;
+  final String selectedCategory;
+  final ValueChanged<String> onCategorySelected;
+  final bool autofocus; // <-- ĐÃ THÊM
+
+  const NavItem({
+    super.key,
+    required this.icon,
+    required this.label,
+    required this.category,
+    required this.selectedCategory,
+    required this.onCategorySelected,
+    this.autofocus = false, // <-- ĐÃ THÊM
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final bool isActive = category == selectedCategory;
+    return TextButton.icon(
+      autofocus: autofocus, // <-- ĐÃ THÊM
+      icon: Icon(icon, size: 28),
+      label: Text(label, style: const TextStyle(fontSize: 18)),
+      onPressed: () => onCategorySelected(category),
+      style: TextButton.styleFrom(
+        foregroundColor: isActive ? kTextColor : kTextSecondaryColor,
+        backgroundColor: isActive ? kAccentColor : Colors.transparent,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+        alignment: Alignment.centerLeft,
+      ).copyWith(
+        // Hiệu ứng focus rõ ràng cho TV
+        overlayColor: MaterialStateProperty.resolveWith<Color?>(
+          (Set<MaterialState> states) {
+            if (states.contains(MaterialState.focused)) {
+              return kAccentColor.withOpacity(0.3);
+            }
+            if (states.contains(MaterialState.hovered)) {
+              return kAccentColor.withOpacity(0.1);
+            }
+            return null; // Sử dụng màu mặc định
+          },
+        ),
+      ),
+    );
+  }
+}
+
+// Thanh tiêu đề và tìm kiếm
+class Header extends StatelessWidget {
+  final String selectedCategory;
+  final String searchTerm;
+  final ValueChanged<String> onSearchChanged;
+  final TextEditingController controller;
+
+  const Header({
+    super.key,
+    required this.selectedCategory,
+    required this.searchTerm,
+    required this.onSearchChanged,
+    required this.controller,
+  });
+
+  String _getTitle() {
+    if (selectedCategory == 'Home') return 'Trang chủ';
+    if (selectedCategory == 'Apps') return 'Ứng dụng';
+    if (selectedCategory == 'Games') return 'Trò chơi';
+    if (selectedCategory == 'Settings') return 'Cài đặt';
+    if (selectedCategory == 'Search') return "Kết quả cho '${searchTerm.isEmpty ? "..." : searchTerm}'";
+    return 'Trang chủ';
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
+      color: kBackgroundColor,
+      // Thêm viền dưới mỏng
+      decoration: const BoxDecoration(
+        border: Border(bottom: BorderSide(color: kPrimaryColor, width: 1)),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Expanded(
+            child: Text(
+              _getTitle(),
+              style: Theme.of(context).textTheme.displayLarge,
+              overflow: TextOverflow.ellipsis,
+              maxLines: 1,
+            ),
+          ),
+          SizedBox(
+            width: 400, // Kích thước ô tìm kiếm
+            child: TextField(
+              controller: controller,
+              onChanged: onSearchChanged,
+              onTap: () {
+                // Khi người dùng nhấp vào, đảm bảo chúng ta đang ở trang tìm kiếm
+                if(selectedCategory != 'Search') {
+                  onSearchChanged(searchTerm);
+                }
+              },
+              decoration: const InputDecoration(
+                hintText: 'Tìm kiếm...',
+                prefixIcon: Icon(Icons.search, color: kTextSecondaryColor),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+// Nội dung chính (các hàng hoặc kết quả tìm kiếm)
+class MainContent extends StatelessWidget {
+  final String selectedCategory;
+  final String searchTerm;
+  final ValueChanged<AppInfo> onAppClick;
+  // --- THAY ĐỔI: Nhận dữ liệu động ---
+  final Map<String, List<AppInfo>> data;
+  final List<AppInfo> allAppsForSearch;
+
+  const MainContent({
+    super.key,
+    required this.selectedCategory,
+    required this.searchTerm,
+    required this.onAppClick,
+    required this.data,
+    required this.allAppsForSearch,
+  });
+
+  // Xây dựng danh sách widget dựa trên danh mục
+  List<Widget> _buildCategoryWidgets(BuildContext context) {
+    switch (selectedCategory) {
+      case 'Home':
+        return [
+          // --- THAY ĐỔI: Sử dụng 'data' thay vì 'mockData' ---
+          AppCategoryRow(title: 'Nổi bật', apps: data['featured'] ?? [], onAppClick: onAppClick),
+          AppCategoryRow(title: 'Trò chơi Phổ biến', apps: data['games'] ?? [], onAppClick: onAppClick),
+          AppCategoryRow(title: 'Ứng dụng Tiện ích', apps: data['apps'] ?? [], onAppClick: onAppClick),
+        ];
+      case 'Apps':
+        return [
+          AppCategoryRow(title: 'Truyền hình', apps: data['television'] ?? [], onAppClick: onAppClick),
+          AppCategoryRow(title: 'Xem phim', apps: data['movies'] ?? [], onAppClick: onAppClick),
+          AppCategoryRow(title: 'Thể thao', apps: data['sports'] ?? [], onAppClick: onAppClick),
+          AppCategoryRow(title: 'Giao diện', apps: data['themes'] ?? [], onAppClick: onAppClick),
+          AppCategoryRow(title: 'Tiện ích khác', apps: data['apps'] ?? [], onAppClick: onAppClick),
+        ];
+      case 'Games':
+        return [
+          AppCategoryRow(title: 'Tất cả Trò chơi', apps: data['games'] ?? [], onAppClick: onAppClick),
+          AppCategoryRow(title: 'Hành động', apps: data['games']!.where((a) => a.id == 'g1' || a.id == 'g3').toList(), onAppClick: onAppClick),
+          AppCategoryRow(title: 'Chiến thuật', apps: data['games']!.where((a) => a.id == 'g2' || a.id == 'g4').toList(), onAppClick: onAppClick),
+        ];
+      case 'Settings':
+        return [
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 800),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Giới thiệu', style: Theme.of(context).textTheme.headlineMedium),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Đây là một giao diện mô phỏng kho ứng dụng TV, được xây dựng bằng Flutter.\n'
+                    'Tất cả dữ liệu ứng dụng đều là giả lập và chỉ dùng cho mục đích demo.',
+                    style: Theme.of(context).textTheme.bodyLarge,
+                  ),
+                  const SizedBox(height: 32),
+                  Text('Cập nhật ứng dụng', style: Theme.of(context).textTheme.headlineMedium),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Bạn đang ở phiên bản: 1.0.0',
+                    style: Theme.of(context).textTheme.bodyLarge?.copyWith(color: Colors.greenAccent),
+                  ),
+                  const SizedBox(height: 24),
+                  ElevatedButton(
+                    onPressed: () {
+                      // TODO: Thêm logic kiểm tra cập nhật
+                    },
+                    style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                    child: const Text('Kiểm tra cập nhật'),
+                  ),
+                ],
+              ),
+            ),
+          )
+        ];
+      case 'Search':
+        // --- THAY ĐỔI: Truyền 'allAppsForSearch' vào SearchPage ---
+        return [SearchPage(onAppClick: onAppClick, searchTerm: searchTerm, allApps: allAppsForSearch)];
+      default:
+        return [const Center(child: Text('Danh mục không xác định'))];
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // Nếu là Tìm kiếm, hiển thị SearchPage. Ngược lại, hiển thị danh sách các hàng.
+    return selectedCategory == 'Search'
+        ? SearchPage(onAppClick: onAppClick, searchTerm: searchTerm, allApps: allAppsForSearch)
+        : ListView(
+            padding: const EdgeInsets.all(24.0),
+            children: _buildCategoryWidgets(context),
+          );
+  }
+}
+
+// Hàng ứng dụng có thể cuộn ngang
+class AppCategoryRow extends StatelessWidget {
+  final String title;
+  final List<AppInfo> apps;
+  final ValueChanged<AppInfo> onAppClick;
+
+  const AppCategoryRow({
+    super.key,
+    required this.title,
+    required this.apps,
+    required this.onAppClick,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(title, style: Theme.of(context).textTheme.headlineMedium),
+        const SizedBox(height: 16),
+        SizedBox(
+          height: 190, // <-- ĐÃ TĂNG CHIỀU CAO ĐỂ CHỨA HIỆU ỨNG FOCUS
+          child: ListView.builder(
+            scrollDirection: Axis.horizontal,
+            itemCount: apps.length,
+            itemBuilder: (context, index) {
+              return Padding(
+                padding: const EdgeInsets.only(right: 16.0, top: 8, bottom: 8), // Thêm padding cho hiệu ứng scale
+                child: AppCard(
+                  app: apps[index],
+                  onAppClick: onAppClick,
+                ),
+              );
+            },
+          ),
+        ),
+        const SizedBox(height: 24),
+      ],
+    );
+  }
+}
+
+// Thẻ ứng dụng
+// --- ĐÃ CHUYỂN THÀNH STATEFULWIDGET ĐỂ QUẢN LÝ FOCUS ---
+class AppCard extends StatefulWidget {
+  final AppInfo app;
+  final ValueChanged<AppInfo> onAppClick;
+
+  const AppCard({super.key, required this.app, required this.onAppClick});
+
+  @override
+  State<AppCard> createState() => _AppCardState();
+}
+
+class _AppCardState extends State<AppCard> {
+  bool _isFocused = false;
+
+  @override
+  Widget build(BuildContext context) {
+    // Thêm Focus widget để theo dõi trạng thái focus
+    return Focus(
+      onFocusChange: (hasFocus) {
+        setState(() {
+          _isFocused = hasFocus;
+        });
+      },
+      // Thêm hiệu ứng scale khi được focus
+      child: Transform.scale(
+        scale: _isFocused ? 1.05 : 1.0,
+        child: SizedBox(
+          width: 260, // Chiều rộng cố định cho thẻ
+          child: Card(
+            clipBehavior: Clip.antiAlias,
+            elevation: _isFocused ? 12 : 4, // Tăng độ nổi khi focus
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+              // Thêm viền màu xanh khi focus
+              side: BorderSide(
+                color: _isFocused ? kAccentColor : Colors.transparent,
+                width: 3,
+              ),
+            ),
+            child: InkWell(
+              onTap: () => widget.onAppClick(widget.app),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.network(
+                    widget.app.icon,
+                    height: 100,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                    // Hiển thị loading
+                    loadingBuilder: (context, child, loadingProgress) {
+                      if (loadingProgress == null) return child;
+                      return Container(
+                        height: 100,
+                        color: kPrimaryColor,
+                        child: const Center(child: CircularProgressIndicator()),
+                      );
+                    },
+                    // Hiển thị lỗi
+                    errorBuilder: (context, error, stackTrace) {
+                      return Container(
+                        height: 100,
+                        color: Colors.red[800],
+                        child: const Center(
+                          child: Icon(Icons.broken_image, color: kTextColor),
+                        ),
+                      );
+                    },
+                  ),
+                  // --- SỬA LỖI: Đã xóa 'const' khỏi các widget bên dưới ---
+                  Padding(
+                    padding: EdgeInsets.all(12.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          widget.app.title,
+                          style: Theme.of(context).textTheme.titleMedium,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        SizedBox(height: 4),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              children: [
+                                Icon(Icons.star, size: 16, color: Colors.yellowAccent),
+                                SizedBox(width: 4),
+                                Text(widget.app.rating.toString(), style: Theme.of(context).textTheme.bodyMedium),
+                              ],
+                            ),
+                            Text(widget.app.version, style: Theme.of(context).textTheme.bodyMedium),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// Trang kết quả tìm kiếm
+class SearchPage extends StatelessWidget {
+  final ValueChanged<AppInfo> onAppClick;
+  final String searchTerm;
+  final List<AppInfo> allApps; // <-- THAY ĐỔI: Nhận danh sách từ widget cha
+
+  const SearchPage({
+    super.key,
+    required this.onAppClick,
+    required this.searchTerm,
+    required this.allApps, // <-- THAY ĐỔI
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    // Lọc ứng dụng dựa trên searchTerm
+    final List<AppInfo> filteredApps = searchTerm.isEmpty
+        ? allApps
+        : allApps
+            .where((app) => app.title.toLowerCase().contains(searchTerm.toLowerCase()))
+            .toList();
+
+    return filteredApps.isEmpty
+        ? Center(
+            child: Text(
+              'Không tìm thấy kết quả nào cho "$searchTerm"',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
+          )
+        : GridView.builder(
+            padding: const EdgeInsets.all(24.0),
+            // Tính toán số cột dựa trên chiều rộng màn hình
+            gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+              maxCrossAxisExtent: 300, // Chiều rộng tối đa của mỗi thẻ
+              childAspectRatio: 260 / 190, // <-- ĐIỀU CHỈNH TỶ LỆ CHO HIỆU ỨNG FOCUS
+              crossAxisSpacing: 20,
+              mainAxisSpacing: 20,
+            ),
+            itemCount: filteredApps.length,
+            itemBuilder: (context, index) {
+              return AppCard(
+                app: filteredApps[index],
+                onAppClick: onAppClick,
+              );
+            },
+          );
+  }
+}
+
+// Trang chi tiết ứng dụng
+class AppDetail extends StatelessWidget {
+  final AppInfo app;
+  final VoidCallback onBack;
+
+  const AppDetail({super.key, required this.app, required this.onBack});
+
+  @override
+  Widget build(BuildContext context) {
+    // Chúng ta sẽ sử dụng một layout khác cho màn hình rộng (như TV)
+    // Tốt nhất là sử dụng `LayoutBuilder` nhưng ở đây chúng ta dùng `Row`
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(32.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // --- CỘT TRÁI (THÔNG TIN) ---
+          Flexible(
+            flex: 2, // Chiếm 2/5 không gian
+            child: Padding(
+              padding: const EdgeInsets.only(right: 32.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Icon
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(16),
+                    child: Image.network(
+                      app.icon.replaceAll('300x170', '400x225'),
+                      width: double.infinity,
+                      fit: BoxFit.cover,
+                      errorBuilder: (context, error, stackTrace) {
+                        return Container(
+                          height: 225, // <-- ĐÃ SỬA: Đặt chiều cao cho ảnh lỗi
+                          color: Colors.red[800],
+                          child: const Center(
+                            child: Icon(Icons.broken_image, color: kTextColor, size: 50),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                  const SizedBox(height: 24),
+                  // Tiêu đề
+                  // --- SỬA LỖI: Đã xóa các dòng 836-842 bị dán lỗi ---
+                  Text(app.title, style: Theme.of(context).textTheme.displayLarge),
+                  const SizedBox(height: 12),
+                  // Rating và Version
+                  Row(
+                        children: [
+                          const Icon(Icons.star, size: 20, color: Colors.yellowAccent),
+                          const SizedBox(width: 8),
+                          Text(app.rating.toString(), style: Theme.of(context).textTheme.bodyLarge),
+                        ],
+                      ),
+                      Text('Phiên bản ${app.version}', style: Theme.of(context).textTheme.bodyLarge?.copyWith(color: kTextSecondaryColor)),
+                    ],
+                  ),
+                  const SizedBox(height: 24),
+                  // Các nút
+                  Row(
+                    children: [
+                      // Nút Quay Lại
+                      Expanded(
+                        child: ElevatedButton.icon(
+                          icon: const Icon(Icons.arrow_back),
+                          label: const Text('Quay lại'),
+                          onPressed: onBack,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: const Color(0xFF4B5563), // bg-gray-600
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      // Nút Cài đặt
+                      Expanded(
+                        child: ElevatedButton(
+                          onPressed: () {
+                            // TODO: Thêm logic tải về/cài đặt
+                            // Ví dụ: sử dụng package url_launcher
+                            print('Đang cố gắng cài đặt từ: ${app.downloadUrl}');
+                          },
+                          child: const Text('Cài đặt'),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+          
+          // --- CỘT PHẢI (MÔ TẢ VÀ SCREENSHOTS) ---
+          Flexible(
+            flex: 3, // Chiếm 3/5 không gian
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Mô tả', style: Theme.of(context).textTheme.headlineMedium),
+                const SizedBox(height: 16),
+                Text(
+                  app.description,
+                  style: Theme.of(context).textTheme.bodyLarge,
+                ),
+                const SizedBox(height: 32),
+                Text('Ảnh chụp màn hình', style: Theme.of(context).textTheme.headlineMedium),
+                const SizedBox(height: 16),
+                SizedBox(
+                  height: 200,
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: app.screenshots.length,
+                    itemBuilder: (context, index) {
+                      return Padding(
+                        padding: const EdgeInsets.only(right: 16.0),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: Image.network(
+                            app.screenshots[index],
+                            height: 200,
+                            width: 350,
+                            fit: BoxFit.cover,
+                            errorBuilder: (context, error, stackTrace) {
+                              return Container(
+                                height: 200,
+                                width: 350,
+                                color: kPrimaryColor,
+                                child: const Center(child: Text('Lỗi ảnh', style: TextStyle(color: kTextColor))),
+                              );
+                            },
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                )
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+
