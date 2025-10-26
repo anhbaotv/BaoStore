@@ -2,171 +2,190 @@
   "featured": [
     {
       "id": "f1",
-      "title": "Film+",
-      "icon": "https://placehold.co/300x170/3B82F6/FFFFFF?text=Film+",
-      "rating": 4.5,
-      "version": "2.1.0",
-      "description": "Ứng dụng xem phim và truyền hình theo yêu cầu hàng đầu, cung cấp hàng ngàn giờ phim bom tấn và series độc quyền.",
-      "screenshots": [
-        "https://placehold.co/600x400/1F2937/FFFFFF?text=Screenshot+1",
-        "https://placehold.co/600x400/1F2937/FFFFFF?text=Screenshot+2"
-      ],
-      "downloadUrl": "https://example.com/downloads/filmplus.apk"
-    },
-    {
-      "id": "g1",
-      "title": "Asphalt TV",
-      "icon": "https://placehold.co/300x170/EF4444/FFFFFF?text=Asphalt+TV",
+      "title": "YouTube TV",
+      "icon": "https://placehold.co/300x170?text=YouTube+TV",
       "rating": 4.8,
-      "version": "1.2.0",
-      "description": "Trải nghiệm đua xe đỉnh cao ngay trên TV của bạn.",
+      "version": "5.12.1",
+      "description": "Xem các kênh truyền hình trực tiếp và video trực tuyến từ YouTube TV trên thiết bị của bạn.",
       "screenshots": [
-        "https://placehold.co/600x400/1F2937/FFFFFF?text=Game+Screenshot+A",
-        "https://placehold.co/600x400/1F2937/FFFFFF?text=Game+Screenshot+B"
+        "https://placehold.co/600x340?text=YouTubeTV+1",
+        "https://placehold.co/600x340?text=YouTubeTV+2",
+        "https://placehold.co/600x340?text=YouTubeTV+3"
       ],
-      "downloadUrl": "https://example.com/downloads/asphalt.apk"
+      "downloadUrl": "https://youtube.com/tv"
     },
     {
-      "id": "a1",
-      "title": "Trình duyệt TV",
-      "icon": "https://placehold.co/300x170/10B981/FFFFFF?text=Browser",
-      "rating": 4.1,
-      "version": "1.5.0",
-      "description": "Trình duyệt web nhanh và mượt mà được tối ưu cho điều khiển TV (D-pad).",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/browser.apk"
+      "id": "f2",
+      "title": "Netflix",
+      "icon": "https://placehold.co/300x170?text=Netflix",
+      "rating": 4.9,
+      "version": "7.25.0",
+      "description": "Xem phim, chương trình truyền hình, và nội dung độc quyền của Netflix ngay trên TV của bạn.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=Netflix+1",
+        "https://placehold.co/600x340?text=Netflix+2"
+      ],
+      "downloadUrl": "https://netflix.com"
     }
   ],
+
   "games": [
     {
       "id": "g1",
-      "title": "Asphalt TV",
-      "icon": "https://placehold.co/300x170/EF4444/FFFFFF?text=Asphalt+TV",
-      "rating": 4.8,
-      "version": "1.2.0",
-      "description": "Đua xe đỉnh cao ngay trên TV của bạn.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/asphalt.apk"
+      "title": "Asphalt 9",
+      "icon": "https://placehold.co/300x170?text=Asphalt+9",
+      "rating": 4.7,
+      "version": "3.9.0",
+      "description": "Đua xe siêu tốc với đồ họa tuyệt đẹp và nhiều siêu xe hấp dẫn.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=Asphalt+1",
+        "https://placehold.co/600x340?text=Asphalt+2"
+      ],
+      "downloadUrl": "https://example.com/asphalt9"
     },
     {
       "id": "g2",
-      "title": "Xây dựng Đế chế",
-      "icon": "https://placehold.co/300x170/F59E0B/FFFFFF?text=Game+De+Che",
-      "rating": 4.2,
-      "version": "3.0.1",
-      "description": "Trò chơi chiến thuật thời gian thực, xây dựng đế chế của riêng bạn.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/deche.apk"
+      "title": "PUBG Mobile",
+      "icon": "https://placehold.co/300x170?text=PUBG+Mobile",
+      "rating": 4.6,
+      "version": "2.5.1",
+      "description": "Sinh tồn trong trận chiến 100 người và trở thành người sống sót cuối cùng.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=PUBG+1",
+        "https://placehold.co/600x340?text=PUBG+2"
+      ],
+      "downloadUrl": "https://pubgmobile.com"
     },
     {
       "id": "g3",
-      "title": "Chiến Binh Rồng",
-      "icon": "https://placehold.co/300x170/EC4899/FFFFFF?text=Chien+Binh",
-      "rating": 4.6,
-      "version": "1.1.0",
-      "description": "Trò chơi hành động nhập vai (RPG) với đồ họa 3D.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/chienbinh.apk"
+      "title": "Clash of Clans",
+      "icon": "https://placehold.co/300x170?text=Clash+of+Clans",
+      "rating": 4.5,
+      "version": "15.0.1",
+      "description": "Xây dựng ngôi làng của bạn, huấn luyện quân đội và chiến đấu cùng hàng triệu người chơi.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=Clash+1",
+        "https://placehold.co/600x340?text=Clash+2"
+      ],
+      "downloadUrl": "https://supercell.com/en/games/clashofclans/"
     },
     {
       "id": "g4",
-      "title": "Cờ Tỷ Phú TV",
-      "icon": "https://placehold.co/300x170/8B5CF6/FFFFFF?text=Co+Ty+Phu",
-      "rating": 4.0,
-      "version": "2.5.0",
-      "description": "Trò chơi cờ tỷ phú cổ điển dành cho cả gia đình.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/cotyphu.apk"
+      "title": "Among Us",
+      "icon": "https://placehold.co/300x170?text=Among+Us",
+      "rating": 4.3,
+      "version": "2025.1",
+      "description": "Trò chơi xã hội vui nhộn — tìm ra kẻ mạo danh trên tàu vũ trụ!",
+      "screenshots": [
+        "https://placehold.co/600x340?text=AmongUs+1",
+        "https://placehold.co/600x340?text=AmongUs+2"
+      ],
+      "downloadUrl": "https://innersloth.com/gameAmongUs"
     }
   ],
+
   "apps": [
     {
       "id": "a1",
-      "title": "Trình duyệt TV",
-      "icon": "https://placehold.co/300x170/10B981/FFFFFF?text=Browser",
-      "rating": 4.1,
-      "version": "1.5.0",
-      "description": "Trình duyệt web nhanh và mượt mà được tối ưu hóa cho điều khiển TV.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/browser.apk"
+      "title": "Spotify",
+      "icon": "https://placehold.co/300x170?text=Spotify",
+      "rating": 4.8,
+      "version": "9.4.0",
+      "description": "Nghe nhạc, podcast và tạo danh sách phát yêu thích trên TV.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=Spotify+1",
+        "https://placehold.co/600x340?text=Spotify+2"
+      ],
+      "downloadUrl": "https://spotify.com"
     },
     {
       "id": "a2",
-      "title": "Quản lý Tệp",
-      "icon": "https://placehold.co/300x170/0EA5E9/FFFFFF?text=File+Manager",
-      "rating": 4.7,
-      "version": "3.0.0",
-      "description": "Quản lý các tệp và thư mục trên Android TV dễ dàng.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/filemanager.apk"
+      "title": "VTV Go",
+      "icon": "https://placehold.co/300x170?text=VTV+Go",
+      "rating": 4.2,
+      "version": "3.5.6",
+      "description": "Xem các kênh truyền hình Việt Nam miễn phí mọi lúc mọi nơi.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=VTVGo+1",
+        "https://placehold.co/600x340?text=VTVGo+2"
+      ],
+      "downloadUrl": "https://vtvgo.vn"
+    },
+    {
+      "id": "a3",
+      "title": "Zing TV",
+      "icon": "https://placehold.co/300x170?text=Zing+TV",
+      "rating": 4.0,
+      "version": "2.1.3",
+      "description": "Kho phim Việt Nam và châu Á đa dạng, miễn phí cho người dùng.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=ZingTV+1",
+        "https://placehold.co/600x340?text=ZingTV+2"
+      ],
+      "downloadUrl": "https://tv.zing.vn"
     }
   ],
+
   "television": [
     {
-      "id": "tv1",
-      "title": "VTV Go (TV)",
-      "icon": "https://placehold.co/300x170/06B6D4/FFFFFF?text=VTV+Go",
-      "rating": 4.6,
-      "version": "5.0.0",
-      "description": "Xem truyền hình trực tuyến chính thức của VTV.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/vtvgo.apk"
-    },
-    {
-      "id": "tv2",
-      "title": "FPT Play",
-      "icon": "https://placehold.co/300x170/14B8A6/FFFFFF?text=FPT+Play",
-      "rating": 4.4,
-      "version": "4.2.0",
-      "description": "Ứng dụng truyền hình và giải trí đa dạng từ FPT.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/fptplay.apk"
+      "id": "t1",
+      "title": "HTV Online",
+      "icon": "https://placehold.co/300x170?text=HTV+Online",
+      "rating": 4.1,
+      "version": "2.2.0",
+      "description": "Truy cập trực tiếp các kênh HTV với chất lượng HD.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=HTV+1",
+        "https://placehold.co/600x340?text=HTV+2"
+      ],
+      "downloadUrl": "https://htvonline.com.vn"
     }
   ],
+
   "movies": [
     {
-      "id": "f1",
-      "title": "Film+",
-      "icon": "https://placehold.co/300x170/3B82F6/FFFFFF?text=Film+",
-      "rating": 4.5,
-      "version": "2.1.0",
-      "description": "Ứng dụng xem phim chất lượng cao.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/filmplus.apk"
-    },
-    {
       "id": "m1",
-      "title": "Netflix (Mod)",
-      "icon": "https://placehold.co/300x170/D946EF/FFFFFF?text=Netflix",
-      "rating": 4.0,
-      "version": "8.0.0",
-      "description": "Trải nghiệm Netflix với các tính năng đặc biệt.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/netflix_mod.apk"
+      "title": "VieON",
+      "icon": "https://placehold.co/300x170?text=VieON",
+      "rating": 4.4,
+      "version": "5.1.2",
+      "description": "Kho phim, TV show và chương trình truyền hình Việt đa dạng.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=VieON+1",
+        "https://placehold.co/600x340?text=VieON+2"
+      ],
+      "downloadUrl": "https://vieon.vn"
     }
   ],
+
   "sports": [
     {
       "id": "s1",
-      "title": "K+ TV",
-      "icon": "https://placehold.co/300x170/6366F1/FFFFFF?text=K+",
-      "rating": 4.3,
-      "version": "1.8.0",
-      "description": "Xem thể thao đỉnh cao, đặc biệt là Ngoại Hạng Anh.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/kplus.apk"
+      "title": "FPT Play",
+      "icon": "https://placehold.co/300x170?text=FPT+Play",
+      "rating": 4.5,
+      "version": "6.8.1",
+      "description": "Xem bóng đá, thể thao và các chương trình trực tiếp hấp dẫn.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=FPT+1",
+        "https://placehold.co/600x340?text=FPT+2"
+      ],
+      "downloadUrl": "https://fptplay.vn"
     }
   ],
+
   "themes": [
     {
-      "id": "t1",
-      "title": "Giao diện Tối",
-      "icon": "https://placehold.co/300x170/4B5563/FFFFFF?text=Dark+Theme",
-      "rating": 4.9,
+      "id": "th1",
+      "title": "TV Theme Dark",
+      "icon": "https://placehold.co/300x170?text=TV+Theme+Dark",
+      "rating": 4.7,
       "version": "1.0.0",
-      "description": "Giao diện tối tuyệt đẹp cho Android TV.",
-      "screenshots": [],
-      "downloadUrl": "https://example.com/downloads/darktheme.apk"
+      "description": "Giao diện tối hiện đại dành cho các thiết bị TV.",
+      "screenshots": [
+        "https://placehold.co/600x340?text=Theme+Dark+1"
+      ],
+      "downloadUrl": "https://example.com/theme-dark"
     }
   ]
 }
