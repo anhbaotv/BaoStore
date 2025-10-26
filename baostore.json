@@ -160,7 +160,7 @@ class _TvAppHomeState extends State<TvAppHome> {
     try {
       // --- QUAN TRỌNG: Thay thế URL này bằng API máy chủ của bạn ---
       final response = await http.get(Uri.parse(
-          'https://gist.githubusercontent.com/gemini-access/a544c79c5c9338f0d86161406f5922c1/raw/tv_store_api.json'));
+          'https://github.com/anhbaotv/BaoStore/blob/main/baostore.json'));
 
       if (response.statusCode == 200) {
         // Giải mã JSON thô (Map<String, dynamic> với các khóa như 'featured', 'games'...)
@@ -959,5 +959,6 @@ class AppDetail extends StatelessWidget {
     );
   }
 }
+
 
 
