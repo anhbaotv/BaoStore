@@ -3,12 +3,12 @@
 {
 "id": "f1",
 "title": "Film+",
-"icon": "https://lh3.googleusercontent.com/d/1JjcCe8IyEi4RackMsL3R7MEgakZouPrE=w1000",
+"icon": "https://www.google.com/search?q=https://placehold.co/300x170/3B82F6/FFFFFF%3Ftext%3DFilm%252B",
 "rating": 4.5,
 "version": "2.1.0",
 "description": "Mô tả chi tiết cho ứng dụng Film+. Đây là ứng dụng xem phim và truyền hình theo yêu cầu hàng đầu, cung cấp hàng ngàn giờ phim bom tấn và các series phim độc quyền.",
 "screenshots": [
-"https://lh3.googleusercontent.com/d/1EdaCccuKZpN6OrAt9lzdmIDIONIkItQG=w1000",
+"https://www.google.com/search?q=https://placehold.co/600x400/1F2937/FFFFFF%3Ftext%3DScreenshot%2B1",
 "https://www.google.com/search?q=https://placehold.co/600x400/1F2937/FFFFFF%3Ftext%3DScreenshot%2B2"
 ],
 "downloadUrl": "https://www.google.com/search?q=https://example.com/downloads/filmplus.apk"
@@ -170,5 +170,3 @@
 }
 ]
 }
-
-
