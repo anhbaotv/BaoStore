@@ -9,7 +9,7 @@
 "description": "Mô tả chi tiết cho ứng dụng Film+. Đây là ứng dụng xem phim và truyền hình theo yêu cầu hàng đầu, cung cấp hàng ngàn giờ phim bom tấn và các series phim độc quyền.",
 "screenshots": [
 "https://lh3.googleusercontent.com/d/1AFSHJqeUMPxDhoxffzxyiq9RfJiaTh35=w1000",
-"https://placehold.co/600x400/1F2937/FFFFFF?text=Screenshot+2"
+"https://lh3.googleusercontent.com/d/11pV8RBMmx2iNOL0YddyhvV7_OnOpMswq=w1000"
 ],
 "downloadUrl": "https://example.com/downloads/filmplus.apk"
 },
@@ -170,3 +170,4 @@
 }
 ]
 }
+
