@@ -1,5 +1,5 @@
 {
-  "television": [
+  "Truyền Hình": [
     {
       "id": "tv1",
       "title": "VTV Go",
@@ -22,9 +22,19 @@
       "description": "Xem TV online, phim truyện, thể thao trên FPT Play.",
       "screenshots": [],
       "downloadUrl": "..."
+    },
+    {
+      "id": "tv2",
+      "title": "iMediaTV",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/fptplay.png",
+      "rating": 4.2,
+      "version": "5.0.1",
+      "description": "Xem TV online,Kênh địa phương, thể thao.",
+      "screenshots": [],
+      "downloadUrl": "..."
     }
   ],
-  "movies": [
+  "Xem Phim": [
     {
       "id": "mov1",
       "title": "Netflix",
@@ -46,7 +56,7 @@
       "downloadUrl": "..."
     }
   ],
-  "sports": [
+  "Thể Thao": [
      {
       "id": "sp1",
       "title": "K+",
@@ -58,7 +68,7 @@
       "downloadUrl": "..."
     }
   ],
-  "themes": [
+  "Giao Diện": [
      {
       "id": "th1",
       "title": "ATV Launcher",
@@ -70,7 +80,7 @@
       "downloadUrl": "..."
     }
   ],
-  "apps": [
+  "KaRaoKe": [
     {
       "id": "app1",
       "title": "YouTube",
@@ -117,4 +127,5 @@
     }
   ]
 }
+
 
