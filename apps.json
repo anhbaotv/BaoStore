@@ -1,5 +1,5 @@
-
-  "Truyền Hình": [
+{
+  "television": [
     {
       "id": "tv1",
       "title": "VTV Go",
@@ -104,11 +104,11 @@
       "downloadUrl": "..."
     }
   ],
-  "new_category": [
+  "new_category": [ // <<< DANH MỤC MỚI
     {
       "id": "new1",
       "title": "Ứng dụng Mới",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/asphalt8.png",
+      "icon": "https://via.placeholder.com/300x170.png?text=New+App",
       "rating": 5.0,
       "version": "1.0.0",
       "description": "Một ứng dụng hoàn toàn mới.",
@@ -116,9 +116,4 @@
       "downloadUrl": "..."
     }
   ]
-
 }
-
-
-
-
