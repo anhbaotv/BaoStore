@@ -1,5 +1,5 @@
 {
-  "television": [
+  "Truyền Hình": [
     {
       "id": "tv1",
       "title": "VTV Go",
@@ -117,3 +117,4 @@
     }
   ]
 }
+
