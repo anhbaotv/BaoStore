@@ -1,9 +1,10 @@
 {
   "show":true,
   "message":"Chào mừng bạn đến với BaoStore!",
-  "backgroundColor": "#3B82F6", // Optional: Mã màu hex cho nền (ví dụ: màu xanh Accent)
+  "backgroundColor": "#f5efeb", // Optional: Mã màu hex cho nền (ví dụ: màu xanh Accent)
   "textColor": "#f5190a"      // Optional: Mã màu hex cho chữ (ví dụ: màu trắng)
 
 }
+
 
 
