@@ -1,6 +1,7 @@
 {
   "show": true,
-  "message": "Chào mừng bạn đến với BaoStore! Phiên bản mới đã được cập nhật.",
+  "message": "Chào mừng bạn đến với BaoStore!",
   "backgroundColor": "#3B82F6", // Optional: Mã màu hex cho nền (ví dụ: màu xanh Accent)
   "textColor": "#FFFFFF"      // Optional: Mã màu hex cho chữ (ví dụ: màu trắng)
+
 }
