@@ -108,7 +108,7 @@
     {
       "id": "new1",
       "title": "Ứng dụng Mới",
-      "icon": "https://via.placeholder.com/300x170.png?text=New+App",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/asphalt8.png",
       "rating": 5.0,
       "version": "1.0.0",
       "description": "Một ứng dụng hoàn toàn mới.",
@@ -118,3 +118,4 @@
   ]
 
 }
+
