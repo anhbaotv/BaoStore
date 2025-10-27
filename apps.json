@@ -104,7 +104,7 @@
       "downloadUrl": "..."
     }
   ],
-  "new_category": [ 
+  "new_category": [ // <<< DANH MỤC MỚI
     {
       "id": "new1",
       "title": "Ứng dụng Mới",
@@ -116,9 +116,4 @@
       "downloadUrl": "..."
     }
   ]
-
-
-
-
-
-
+}
