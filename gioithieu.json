@@ -1,0 +1,5 @@
+{
+  "title": "Giới Thiệu BaoStore",
+  "message": "Đây là nội dung giới thiệu được tải động từ file gioithieu.json. Bạn có thể thay đổi nội dung này bất cứ lúc nào trên server! Ứng dụng này là một kho demo được xây dựng bằng Flutter cho các thiết bị TV.",
+  "icon_url": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/vtvgo.png"
+}
