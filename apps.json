@@ -26,7 +26,7 @@
     {
       "id": "tv2",
       "title": "iMediaTV",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/fptplay.png",
+      "icon": "https://i.postimg.cc/brzPpPpS/images.jpg",
       "rating": 4.2,
       "version": "5.0.1",
       "description": "Xem TV online,Kênh địa phương, thể thao.",
@@ -127,5 +127,6 @@
     }
   ]
 }
+
 
 
