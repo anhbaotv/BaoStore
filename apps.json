@@ -1,7 +1,7 @@
 {
   "Truyền Hình": [
     {
-       "id": "tv2",
+       "id": "tv1",
       "title": "iMediaTV",
       "icon": "https://i.postimg.cc/brzPpPpS/images.jpg",
       "rating": 4.2,
@@ -126,6 +126,7 @@
     }
   ]
 }
+
 
 
 
