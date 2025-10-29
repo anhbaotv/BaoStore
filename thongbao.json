@@ -1,7 +1,8 @@
 {
   "show": true,
   "message": "THÔNG BÁO : Chào mừng bạn đến với BaoStore!",
-  "backgroundColor": "#3B82F6",
+  "backgroundColor": "",
   "textColor": "#FFFFFF"
 }
+
 
