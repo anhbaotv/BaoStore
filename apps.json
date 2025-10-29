@@ -3,7 +3,7 @@
     {
       "id": "tv1",
       "title": "VTV Go",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/vtvgo.png",
+      "icon": "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
       "rating": 4.5,
       "version": "2.1.0",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
@@ -127,6 +127,7 @@
     }
   ]
 }
+
 
 
 
