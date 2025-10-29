@@ -7,7 +7,7 @@
       "rating": 4.2,
       "version": "5.0.1",
       "description": "Xem TV online,Kênh địa phương, thể thao.",
-      "screenshots": [],
+      "screenshots": [
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk"
     },
     {
@@ -17,7 +17,7 @@
       "rating": 4.2,
       "version": "5.0.1",
       "description": "Xem TV online, phim truyện, thể thao trên FPT Play.",
-      "screenshots": [],
+      "screenshots": [
       "downloadUrl": "..."
     },
     {
@@ -126,6 +126,7 @@
     }
   ]
 }
+
 
 
 
