@@ -1,14 +1,17 @@
 {
-  "Truyền Hình": [
+  "television": [
     {
-       "id": "tv1",
-      "title": "iMediaTV",
-      "icon": "https://i.postimg.cc/brzPpPpS/images.jpg",
-      "rating": 4.2,
-      "version": "5.0.1",
-      "description": "Xem TV online,Kênh địa phương, thể thao.",
+      "id": "tv1",
+      "title": "VTV Go",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/vtvgo.png",
+      "rating": 4.5,
+      "version": "2.1.0",
+      "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk"
+        "https://via.placeholder.com/640x360.png?text=VTVGo+Screenshot+1",
+        "https://via.placeholder.com/640x360.png?text=VTVGo+Screenshot+2"
+      ],
+      "downloadUrl": "..."
     },
     {
       "id": "tv2",
@@ -17,23 +20,11 @@
       "rating": 4.2,
       "version": "5.0.1",
       "description": "Xem TV online, phim truyện, thể thao trên FPT Play.",
-      "screenshots": [
-      "downloadUrl": "..."
-    },
-    {
-       "id": "tv3",
-      "title": "VTV Go",
-      "icon": "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
-      "rating": 4.5,
-      "version": "2.1.0",
-      "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
-      "screenshots": [
-        "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
-        "https://i.postimg.cc/zXfB6Ccv/91Jk0t-Gcj-HL.png"
+      "screenshots": [],
       "downloadUrl": "..."
     }
   ],
-  "Xem Phim": [
+  "movies": [
     {
       "id": "mov1",
       "title": "Netflix",
@@ -55,7 +46,7 @@
       "downloadUrl": "..."
     }
   ],
-  "Thể Thao": [
+  "sports": [
      {
       "id": "sp1",
       "title": "K+",
@@ -67,7 +58,7 @@
       "downloadUrl": "..."
     }
   ],
-  "Giao Diện": [
+  "themes": [
      {
       "id": "th1",
       "title": "ATV Launcher",
@@ -79,7 +70,7 @@
       "downloadUrl": "..."
     }
   ],
-  "KaRaoKe": [
+  "apps": [
     {
       "id": "app1",
       "title": "YouTube",
@@ -113,7 +104,7 @@
       "downloadUrl": "..."
     }
   ],
-  "new_category": [
+  "new_category": [ // <<< DANH MỤC MỚI
     {
       "id": "new1",
       "title": "Ứng dụng Mới",
@@ -126,15 +117,3 @@
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
