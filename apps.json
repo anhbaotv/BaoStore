@@ -8,8 +8,8 @@
       "version": "2.1.0",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
-        "https://via.placeholder.com/640x360.png?text=VTVGo+Screenshot+1",
-        "https://via.placeholder.com/640x360.png?text=VTVGo+Screenshot+2"
+        "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
+        "https://i.postimg.cc/zXfB6Ccv/91Jk0t-Gcj-HL.png"
       ],
       "downloadUrl": "..."
     },
@@ -127,6 +127,7 @@
     }
   ]
 }
+
 
 
 
