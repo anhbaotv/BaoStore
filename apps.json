@@ -17,7 +17,10 @@
       "rating": 4.2,
       "version": "5.0.1",
       "description": "Xem TV online, phim truyện, thể thao trên FPT Play.",
-      "screenshots": [https://i.postimg.cc/90X8zBQ4/xem-truyen-hinh-mien-phi-tren-Chromecast-with-Google-TV.jpg", "https://i.postimg.cc/3RfpCjZn/xem-bong-da-mien-phi-bang-monster-TV-01.png"],
+      "screenshots": [
+        https://i.postimg.cc/90X8zBQ4/xem-truyen-hinh-mien-phi-tren-Chromecast-with-Google-TV.jpg", 
+        "https://i.postimg.cc/3RfpCjZn/xem-bong-da-mien-phi-bang-monster-TV-01.png"
+      ],
       "downloadUrl": "..."
     },
     {
@@ -127,4 +130,5 @@
     }
   ]
 }
+
 
