@@ -9,7 +9,7 @@
       "description": "Xem TV online, kênh địa phương, thể thao.",
       "screenshots": [],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk",
-      "packageName": "com.imedia.tv"
+      "packageName": "com.kt.apps.media.xemtv.beta"
     },
     {
       "id": "tv2",
@@ -141,4 +141,5 @@
     }
   ]
 }
+
 
