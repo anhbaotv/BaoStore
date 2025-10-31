@@ -27,8 +27,8 @@
     },
     {
       "id": "tv3",
-      "title": "VTV Go",
-      "icon": "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
+      "title": "VietPlay TV",
+      "icon": "https://i.postimg.cc/K8zHkZQt/app-icon.png",
       "rating": 4.5,
       "version": "2.1.0",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
@@ -36,8 +36,8 @@
         "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
         "https://i.postimg.cc/zXfB6Ccv/91Jk0t-Gcj-HL.png"
       ],
-      "downloadUrl": "...",
-      "packageName": "vn.vtv.vtvgo"
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/VietPlay.TV.apk",
+      "packageName": "com.nghenhin24h.vietplaytv"
     }
   ],
   "Xem Phim": [
@@ -141,6 +141,7 @@
     }
   ]
 }
+
 
 
 
