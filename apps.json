@@ -38,7 +38,7 @@
       ],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/VietPlay.TV.apk",
       "packageName": "com.nghenhin24h.vietplaytv"
-    }
+    },
     {
       "id": "tv4",
       "title": "DLTivi",
@@ -155,6 +155,7 @@
     }
   ]
 }
+
 
 
 
