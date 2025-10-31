@@ -6,10 +6,10 @@
       "icon": "https://i.postimg.cc/brzPpPpS/images.jpg",
       "rating": 4.2,
       "version": "5.0.1",
-      "description": "Xem TV online,Kênh địa phương, thể thao.",
+      "description": "Xem TV online, kênh địa phương, thể thao.",
       "screenshots": [],
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk"
-      "packageName": "com.fpt.play"
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk",
+      "packageName": "com.imedia.tv"
     },
     {
       "id": "tv2",
@@ -19,10 +19,11 @@
       "version": "5.0.1",
       "description": "Xem TV online, phim truyện, thể thao trên FPT Play.",
       "screenshots": [
-        "https://i.postimg.cc/90X8zBQ4/xem-truyen-hinh-mien-phi-tren-Chromecast-with-Google-TV.jpg", 
+        "https://i.postimg.cc/90X8zBQ4/xem-truyen-hinh-mien-phi-tren-Chromecast-with-Google-TV.jpg",
         "https://i.postimg.cc/3RfpCjZn/xem-bong-da-mien-phi-bang-monster-TV-01.png"
       ],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "com.monster.tv"
     },
     {
       "id": "tv3",
@@ -35,7 +36,8 @@
         "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
         "https://i.postimg.cc/zXfB6Ccv/91Jk0t-Gcj-HL.png"
       ],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "vn.vtv.vtvgo"
     }
   ],
   "Xem Phim": [
@@ -47,7 +49,8 @@
       "version": "8.1.0",
       "description": "Xem phim và chương trình truyền hình nổi tiếng.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "com.netflix.mediaclient"
     },
     {
       "id": "mov2",
@@ -57,7 +60,8 @@
       "version": "3.2.5",
       "description": "Thư viện phim Việt Nam và quốc tế.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "vn.com.fimplus"
     }
   ],
   "Thể Thao": [
@@ -69,7 +73,8 @@
       "version": "1.9.0",
       "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "com.vtvcab.on"
     }
   ],
   "Giao Diện": [
@@ -81,7 +86,8 @@
       "version": "0.1.9",
       "description": "Giao diện tùy biến cho Android TV.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "org.tv.launcher"
     }
   ],
   "KaRaoKe": [
@@ -93,7 +99,8 @@
       "version": "2.18.5",
       "description": "Xem video trực tuyến phổ biến nhất.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "com.google.android.youtube.tv"
     },
     {
       "id": "app2",
@@ -103,7 +110,8 @@
       "version": "1.7.2",
       "description": "Trình duyệt web tối ưu cho điều khiển TV.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "com.phlox.tvwebbrowser"
     }
   ],
   "games": [
@@ -115,7 +123,8 @@
       "version": "6.0.0",
       "description": "Game đua xe tốc độ cao.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "com.gameloft.android.ANMP.GloftA8HM"
     }
   ],
   "new_category": [
@@ -127,10 +136,8 @@
       "version": "1.0.0",
       "description": "Một ứng dụng hoàn toàn mới.",
       "screenshots": [],
-      "downloadUrl": "..."
+      "downloadUrl": "...",
+      "packageName": "com.example.newapp"
     }
   ]
 }
-
-
-
