@@ -22,7 +22,7 @@
         "https://i.postimg.cc/90X8zBQ4/xem-truyen-hinh-mien-phi-tren-Chromecast-with-Google-TV.jpg",
         "https://i.postimg.cc/3RfpCjZn/xem-bong-da-mien-phi-bang-monster-TV-01.png"
       ],
-      "downloadUrl": "...",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Monster.TV.v.3.2.0.apk",
       "packageName": "com.monster.tv"
     },
     {
@@ -141,3 +141,4 @@
     }
   ]
 }
+
