@@ -23,7 +23,7 @@
         "https://i.postimg.cc/3RfpCjZn/xem-bong-da-mien-phi-bang-monster-TV-01.png"
       ],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Monster.TV.v.3.2.0.apk",
-      "packageName": "com.monster.tv"
+      "packageName": "com.quang.monstertv"
     },
     {
       "id": "tv3",
@@ -141,5 +141,6 @@
     }
   ]
 }
+
 
 
