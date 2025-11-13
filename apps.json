@@ -62,7 +62,7 @@
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
         "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
-        "https://i.postimg.cc/zXfB6Ccv/91Jk0t-Gcj-HL.png"],
+        "https://i.postimg.cc/zXfB6Ccv/91Jk0t-Gcj-HL.png" ],
       "downloadUrl": "...",
       "packageName": "com.dinhlap.tivi"
    }
@@ -168,6 +168,7 @@
     }
   ]
 }
+
 
 
 
