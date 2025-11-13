@@ -53,7 +53,7 @@
       "downloadUrl": "...",
       "packageName": "com.dinhlap.tivi"
     },
-     {
+    {
       "id": "tv5",
       "title": "FPTPlay",
       "icon": "https://i.postimg.cc/7YFDrHzF/unnamed-1.png",
@@ -64,8 +64,8 @@
         "https://i.postimg.cc/DZzrNkrJ/vtv-go-thumb-640x360.jpg",
         "https://i.postimg.cc/zXfB6Ccv/91Jk0t-Gcj-HL.png" ],
       "downloadUrl": "...",
-      "packageName": "com.dinhlap.tivi"
-   }
+      "packageName": ""
+     }
   ],
   "Xem Phim": [
     {
@@ -168,6 +168,7 @@
     }
   ]
 }
+
 
 
 
