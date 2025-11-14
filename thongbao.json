@@ -1,10 +1,6 @@
 {
   "show": true,
-  "message": "Chào mừng bạn đến với BaoStore! App đang trong thời gian cập nhật sẽ hoàn thiện trong thời gian tới",
-  "backgroundColor": "",
-  "textColor": "#07f73f"
+  "message": "Nội dung thông báo chạy chữ... ",
+  "labelColor": "#FF0000", 
+  "textColor": "#FFFFFF"   
 }
-
-
-
-
