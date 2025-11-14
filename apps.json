@@ -5,7 +5,7 @@
       "title": "iMediaTV",
       "icon": "https://i.postimg.cc/brzPpPpS/images.jpg",
       "rating": 4.2,
-      "version": "5.0.1",
+      "version": "25.04.06.B",
       "description": "Xem TV online, kênh địa phương, thể thao.",
       "screenshots": [],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk",
@@ -67,7 +67,7 @@
       "packageName": ""
      }
   ],
-  "Xem Phim": [
+  "Giải Trí": [
     {
       "id": "mov1",
       "title": "Netflix",
@@ -91,7 +91,7 @@
       "packageName": "vn.com.fimplus"
     }
   ],
-  "Thể Thao": [
+  "Xem Phim": [
     {
       "id": "sp1",
       "title": "K+",
@@ -104,7 +104,7 @@
       "packageName": "com.vtvcab.on"
     }
   ],
-  "Giao Diện": [
+  "Thể Thao": [
     {
       "id": "th1",
       "title": "ATV Launcher",
@@ -141,7 +141,7 @@
       "packageName": "com.phlox.tvwebbrowser"
     }
   ],
-  "games": [
+  "Trình Duyệt": [
     {
       "id": "gm1",
       "title": "Asphalt 8",
@@ -154,7 +154,7 @@
       "packageName": "com.gameloft.android.ANMP.GloftA8HM"
     }
   ],
-  "new_category": [
+  "Camera": [
     {
       "id": "new1",
       "title": "Ứng dụng Mới",
@@ -168,6 +168,7 @@
     }
   ]
 }
+
 
 
 
