@@ -148,7 +148,7 @@
   ],
   "Xem Phim": [
     {
-      "id": "sp1",
+      "id": "Phim1",
       "title": "K+",
       "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
       "rating": 4.3,
@@ -223,6 +223,7 @@
     }
   ]
 }
+
 
 
 
