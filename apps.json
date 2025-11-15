@@ -100,6 +100,50 @@
       "screenshots": [],
       "downloadUrl": "...",
       "packageName": "vn.com.fimplus"
+    },
+    {
+      "id": "mov3",
+      "title": "Galaxy Play",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
+      "rating": 4.0,
+      "version": "3.2.5",
+      "description": "Thư viện phim Việt Nam và quốc tế.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "vn.com.fimplus"
+    },
+    {
+      "id": "mov4",
+      "title": "Galaxy Play",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
+      "rating": 4.0,
+      "version": "3.2.5",
+      "description": "Thư viện phim Việt Nam và quốc tế.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "vn.com.fimplus"
+    },
+    {
+      "id": "mov5",
+      "title": "Galaxy Play",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
+      "rating": 4.0,
+      "version": "3.2.5",
+      "description": "Thư viện phim Việt Nam và quốc tế.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "vn.com.fimplus"
+    },
+    {
+      "id": "mov6",
+      "title": "Galaxy Play",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
+      "rating": 4.0,
+      "version": "3.2.5",
+      "description": "Thư viện phim Việt Nam và quốc tế.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "vn.com.fimplus"
     }
   ],
   "Xem Phim": [
@@ -179,6 +223,7 @@
     }
   ]
 }
+
 
 
 
