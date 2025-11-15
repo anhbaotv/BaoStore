@@ -17,7 +17,7 @@
       "icon": "https://i.postimg.cc/m22JrTcf/unnamed.png",
       "rating": 4.2,
       "version": "3.2.0",
-      "description": "Xem TV online, phim truyện, thể thao trên FPT Play.",
+      "description": "Truyền hình trực tuyến,Các kênh truyền hình địa phương, quốc tế: Bao gồm tin tức, thể thao, phim truyện, ca nhạc từ nhiều quốc gia, mở rộng tầm nhìn giải trí toàn cầu ngay tại ngôi nhà của bạn..",
       "screenshots": [
         "https://i.postimg.cc/90X8zBQ4/xem-truyen-hinh-mien-phi-tren-Chromecast-with-Google-TV.jpg",
         "https://i.postimg.cc/3RfpCjZn/xem-bong-da-mien-phi-bang-monster-TV-01.png"
@@ -30,7 +30,7 @@
       "title": "VietPlay TV",
       "icon": "https://i.postimg.cc/K8zHkZQt/app-icon.png",
       "rating": 4.5,
-      "version": "2.1.0",
+      "version": "2.2.0",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/14Fxn-maa_7MQl3qaqOBTG-jMcBrvHdFU"],
@@ -42,7 +42,7 @@
       "title": "DLTivi",
       "icon": "https://i.postimg.cc/7YFDrHzF/unnamed-1.png",
       "rating": 4.5,
-      "version": "2.1.0",
+      "version": "1.5.0",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
         "https://i.postimg.cc/7YFDrHzF/unnamed-1.png",
@@ -69,7 +69,7 @@
       "title": "CòTiVi",
       "icon": "https://lh3.googleusercontent.com/d/1Uk4iFF6w7pfq2Cad3_22914VG8E6xeDd",
       "rating": 4.5,
-      "version": "2.1.0",
+      "version": "1.1.2",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1Hfbxn8v9aEb8dL8ZedKp3zPZKuzSD9Cs",
@@ -223,6 +223,7 @@
     }
   ]
 }
+
 
 
 
