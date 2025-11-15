@@ -7,7 +7,7 @@
       "rating": 4.2,
       "version": "25.04.06.B",
       "description": "Xem TV online, kênh địa phương, thể thao.",
-      "screenshots": [],
+      "screenshots": [https://lh3.googleusercontent.com/d/1kaAxJK0l5umTlPU0tp3kCZrS1_gDdA0w],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk",
       "packageName": "com.kt.apps.media.xemtv.beta"
     },
@@ -168,6 +168,7 @@
     }
   ]
 }
+
 
 
 
