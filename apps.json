@@ -86,7 +86,7 @@
       "rating": 4.8,
       "version": "8.1.0",
       "description": "Xem phim và chương trình truyền hình nổi tiếng.",
-      "screenshots": [https://lh3.googleusercontent.com/d/1LWr6KKPzK7toTCI6K-43GwA2gRCykIpf],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1LWr6KKPzK7toTCI6K-43GwA2gRCykIpf"],
       "downloadUrl": "...",
       "packageName": "com.netflix.mediaclient"
     },
@@ -223,6 +223,7 @@
     }
   ]
 }
+
 
 
 
