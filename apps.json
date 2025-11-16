@@ -94,11 +94,12 @@
     {
       "id": "mov2",
       "title": "Galaxy Play",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
+      "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc
+",
       "rating": 4.0,
       "version": "3.2.5",
       "description": "Thư viện phim Việt Nam và quốc tế.",
-      "screenshots": [],
+      "screenshots": "[https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU"],
       "downloadUrl": "...",
       "packageName": "vn.com.fimplus"
     },
@@ -224,6 +225,7 @@
     }
   ]
 }
+
 
 
 
