@@ -78,9 +78,9 @@
       "packageName": "com.cofvuong.tivi"
      }
   ],
-  "Giải Trí": [
+  "Youtube": [
     {
-      "id": "mov1",
+      "id": "yotube1",
       "title": "Youtube",
       "icon": "https://lh3.googleusercontent.com/d/1cWIGVS-4sMv901_KyhM5uY1VsGlh1Acr",
       "rating": 4.8,
@@ -92,7 +92,7 @@
       "packageName": "com.netflix.mediaclient"
     },
     {
-      "id": "mov2",
+      "id": "Youtube2",
       "title": "SmartYube",
       "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc",
       "rating": 4.0,
@@ -103,7 +103,7 @@
       "packageName": "vn.com.fimplus"
     },
     {
-      "id": "mov3",
+      "id": "Youtube3",
       "title": "TiZenTube(Mod)",
       "icon": "https://lh3.googleusercontent.com/d/1gyy-iR0bCY_Z0vyNktXfQIYhC0KJO3on",
       "rating": 4.0,
@@ -114,7 +114,7 @@
       "packageName": "vn.com.fimplus"
     },
     {
-      "id": "mov4",
+      "id": "Youtube4",
       "title": "Galaxy Play",
       "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
       "rating": 4.0,
@@ -125,7 +125,7 @@
       "packageName": "vn.com.fimplus"
     },
     {
-      "id": "mov5",
+      "id": "Youtube5",
       "title": "Galaxy Play",
       "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
       "rating": 4.0,
@@ -136,7 +136,7 @@
       "packageName": "vn.com.fimplus"
     },
     {
-      "id": "mov6",
+      "id": "Youtube6",
       "title": "Galaxy Play",
       "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
       "rating": 4.0,
@@ -224,6 +224,7 @@
     }
   ]
 }
+
 
 
 
