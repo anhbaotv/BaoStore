@@ -139,12 +139,12 @@
     },
     {
       "id": "Youtube6",
-      "title": "Galaxy Play",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
+      "title": "MicroG",
+      "icon": "https://lh3.googleusercontent.com/d/1b9JzurKb6mPoGNWhv1mgVmcRSLgHNpJX",
       "rating": 4.0,
       "version": "3.2.5",
       "description": "Thư viện phim Việt Nam và quốc tế.",
-      "screenshots": [],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1-laZW6ZGNDwtwN0TRmoXQTU5_iLkC0p5"],
       "downloadUrl": "...",
       "packageName": "vn.com.fimplus"
     }
@@ -226,6 +226,7 @@
     }
   ]
 }
+
 
 
 
