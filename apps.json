@@ -98,7 +98,7 @@
       "rating": 4.0,
       "version": "3.2.5",
       "description": "Thư viện phim Việt Nam và quốc tế.",
-      "screenshots": ["https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU"],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1XycZbgkhOOpzZHFEEUDaWndNmGtljQof"],
       "downloadUrl": "...",
       "packageName": "vn.com.fimplus"
     },
@@ -224,6 +224,7 @@
     }
   ]
 }
+
 
 
 
