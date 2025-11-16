@@ -94,8 +94,7 @@
     {
       "id": "mov2",
       "title": "SmartYube",
-      "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc
-",
+      "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc",
       "rating": 4.0,
       "version": "3.2.5",
       "description": "Thư viện phim Việt Nam và quốc tế.",
@@ -225,6 +224,7 @@
     }
   ]
 }
+
 
 
 
