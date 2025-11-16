@@ -93,7 +93,7 @@
     },
     {
       "id": "Youtube2",
-      "title": "SmartYube",
+      "title": "SmartTube",
       "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc",
       "rating": 4.0,
       "version": "3.2.5",
@@ -115,12 +115,12 @@
     },
     {
       "id": "Youtube4",
-      "title": "Galaxy Play",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/galaxyplay.png",
+      "title": "TiZenTube(Góc)",
+      "icon": "https://lh3.googleusercontent.com/d/1gyy-iR0bCY_Z0vyNktXfQIYhC0KJO3on",
       "rating": 4.0,
       "version": "3.2.5",
       "description": "Thư viện phim Việt Nam và quốc tế.",
-      "screenshots": [],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1H57yVU39Mj80ZhtPTJg_GTab52FyfmF_"],
       "downloadUrl": "...",
       "packageName": "vn.com.fimplus"
     },
@@ -224,6 +224,7 @@
     }
   ]
 }
+
 
 
 
