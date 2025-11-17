@@ -137,10 +137,10 @@
       "icon": "https://lh3.googleusercontent.com/d/1b9JzurKb6mPoGNWhv1mgVmcRSLgHNpJX",
       "rating": 4.0,
       "version": "3.2.5",
-      "description": "Thư viện phim Việt Nam và quốc tế.",
+      "description": "YouTube Revanced hổ trợ chuột.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1VTGgC5kIYgOk0ILIJWqBquRg8pkfyaBa"],
       "downloadUrl": "...",
-      "packageName": "vn.com.fimplus"
+      "packageName": ""
     },
     {
       "id": "Youtube6",
@@ -148,10 +148,10 @@
       "icon": "https://lh3.googleusercontent.com/d/1b9JzurKb6mPoGNWhv1mgVmcRSLgHNpJX",
       "rating": 4.0,
       "version": "3.2.5",
-      "description": "Thư viện phim Việt Nam và quốc tế.",
+      "description": "Hổ trợ khi cài đặt YouTube Revanced ",
       "screenshots": ["https://lh3.googleusercontent.com/d/1-laZW6ZGNDwtwN0TRmoXQTU5_iLkC0p5"],
       "downloadUrl": "...",
-      "packageName": "vn.com.fimplus"
+      "packageName": ""
     }
   ],
   "Xem Phim": [
@@ -160,27 +160,27 @@
       "title": "Rổ giải trí",
       "icon": "https://lh3.googleusercontent.com/d/1vGEBOiJ_6lxtusl6bCRbaVFf-PZmU2DB",
       "rating": 4.3,
-      "version": "1.9.0",
-      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "version": "1.1.7",
+      "description": "Kênh giải trí Xem phim, trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1B0QOetRzPUOULtg-sG-49K5IsfAVi34Z",
       "https://lh3.googleusercontent.com/d/1_uKJTtmfNO0Px0T19-tpWKjNh35m_6EZ"],
-      "downloadUrl": "...",
-      "packageName": "com.vtvcab.on"
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/R.Phim.v.1.1.7.apk",
+      "packageName": "com.rophim.android.tv"
     },
     {
       "id": "Phim2",
-      "title": "K+",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "title": "CloudStream (MOD)",
+      "icon": "https://lh3.googleusercontent.com/d/1Vv0_oPJ90guV5QRpcDwpQ7Za3siCoDJJ",
       "rating": 4.3,
-      "version": "1.9.0",
-      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.vtvcab.on"
+      "version": "4.6.0",
+      "description": "(pas:nghien android tv) Thật tuyệt vời biết bao khi tận hưởng cuối tuần xem phim 4K không quảng cáo? Thật tuyệt vời biết bao nếu bạn có thể truy cập nội dung yêu thích của mình bằng nhiều ngôn ngữ và có phụ đề? Nghe hay đấy chứ? Nếu tôi nói "Được thôi", điều đó hoàn toàn khả thi trên một nền tảng duy nhất, đó chính là CloudStream!.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/13tOY-VkA1Oc4BbGgthEOJaTlJfqvv-_8","https://lh3.googleusercontent.com/d/1W5-lwbfwbOBsldItOTy2CM2E0c-FiYbK"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/CloudStream.MOD.apk",
+      "packageName": "com.lagradost.cloudstream3"
     },
     {
       "id": "Phim3",
-      "title": "K+",
+      "title": "Phim 4K (TV)",
       "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
       "rating": 4.3,
       "version": "1.9.0",
@@ -191,7 +191,7 @@
     },
     {
       "id": "Phim4",
-      "title": "K+",
+      "title": "iQIYI",
       "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
       "rating": 4.3,
       "version": "1.9.0",
@@ -287,6 +287,7 @@
     }
   ]
 }
+
 
 
 
