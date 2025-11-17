@@ -84,23 +84,24 @@
       "title": "Youtube",
       "icon": "https://lh3.googleusercontent.com/d/1cWIGVS-4sMv901_KyhM5uY1VsGlh1Acr",
       "rating": 4.8,
-      "version": "8.1.0",
-      "description": "Xem phim và chương trình truyền hình nổi tiếng.",
+      "version": "2.02.14",
+      "description": "Ứng dụng chính thức của google có quảng cáo.",
       "screenshots": [
-        "https://lh3.googleusercontent.com/d/140MJ407y6XHX3ab42TC9IJzC4KmNz2O0"],
-      "downloadUrl": "...",
-      "packageName": "com.netflix.mediaclient"
+        "https://lh3.googleusercontent.com/d/140MJ407y6XHX3ab42TC9IJzC4KmNz2O0",
+        "https://lh3.googleusercontent.com/d/10V8yolHeBVluwAkUJHB0C4pUHD0qBMik"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Youtube.TV.v.2.02.14.apk.",
+      "packageName": "com.google.android.youtube.tv"
     },
     {
       "id": "Youtube2",
       "title": "SmartTube",
       "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc",
       "rating": 4.0,
-      "version": "3.2.5",
-      "description": "Thư viện phim Việt Nam và quốc tế.",
+      "version": "30.42",
+      "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU",
-        "https://lh3.googleusercontent.com/d/1j3hUqtTa0yb5A3zpvzB1GdWJQspx34-8"],
+        "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube.v.30.43.apk",
       "packageName": "com.teamsmart.videomanager.tv"
     },
@@ -109,22 +110,26 @@
       "title": "TiZenTube(Mod)",
       "icon": "https://lh3.googleusercontent.com/d/1gyy-iR0bCY_Z0vyNktXfQIYhC0KJO3on",
       "rating": 4.0,
-      "version": "3.2.5",
-      "description": "Thư viện phim Việt Nam và quốc tế.",
-      "screenshots": ["https://lh3.googleusercontent.com/d/1XycZbgkhOOpzZHFEEUDaWndNmGtljQof"],
-      "downloadUrl": "...",
-      "packageName": "vn.com.fimplus"
+      "version": "1.03",
+      "description": "TizenTube mod gióng youtube gốc ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo (Cần xoá youtube gốc).",
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1XycZbgkhOOpzZHFEEUDaWndNmGtljQof",
+      "https://lh3.googleusercontent.com/d/1r4Qq8tM2QFYSaIOK5Xs2QCeIQGdidLTI"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/cobalt.youtube.tv.apk",
+      "packageName": "com.google.android.youtube.tv"
     },
     {
       "id": "Youtube4",
-      "title": "TiZenTube(Góc)",
+      "title": "TiZenTube(tube)",
       "icon": "https://lh3.googleusercontent.com/d/1gyy-iR0bCY_Z0vyNktXfQIYhC0KJO3on",
       "rating": 4.0,
-      "version": "3.2.5",
-      "description": "Thư viện phim Việt Nam và quốc tế.",
-      "screenshots": ["https://lh3.googleusercontent.com/d/1H57yVU39Mj80ZhtPTJg_GTab52FyfmF_"],
-      "downloadUrl": "...",
-      "packageName": "vn.com.fimplus"
+      "version": "1.03",
+      "description": "TizenTube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1H57yVU39Mj80ZhtPTJg_GTab52FyfmF_",
+        "https://lh3.googleusercontent.com/d/1r4Qq8tM2QFYSaIOK5Xs2QCeIQGdidLTI"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/cobalt-arm.apk",
+      "packageName": "com.cobalt.youtube.tv"
     },
     {
       "id": "Youtube5",
@@ -282,6 +287,7 @@
     }
   ]
 }
+
 
 
 
