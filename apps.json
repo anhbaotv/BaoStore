@@ -101,8 +101,8 @@
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU",
         "https://lh3.googleusercontent.com/d/1j3hUqtTa0yb5A3zpvzB1GdWJQspx34-8"],
-      "downloadUrl": "...",
-      "packageName": "vn.com.fimplus"
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube.v.30.43.apk",
+      "packageName": ""
     },
     {
       "id": "Youtube3",
@@ -282,6 +282,7 @@
     }
   ]
 }
+
 
 
 
