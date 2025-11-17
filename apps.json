@@ -185,7 +185,7 @@
       "rating": 4.3,
       "version": "2.1.5",
       "description": "Xem trực tiếp phim chất lượng cao độ phân giải 4K sống động.",
-      "screenshots": ["https://lh3.googleusercontent.com/d/1Z_58e_mTUpuBQHI7owzBvJyIhKcLLeAF","https://lh3.googleusercontent.com/d/1Z_58e_mTUpuBQHI7owzBvJyIhKcLLeAF"],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1Z_58e_mTUpuBQHI7owzBvJyIhKcLLeAF","https://lh3.googleusercontent.com/d/1if8eHxu5DIG3BXfrJeMtISs7HNhNq3bX"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Phim4K-v2.1.5.apk",
       "packageName": "com.oxootv.spagreen"
     },
@@ -287,6 +287,7 @@
     }
   ]
 }
+
 
 
 
