@@ -181,13 +181,13 @@
     {
       "id": "Phim3",
       "title": "Phim 4K (TV)",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "icon": "https://lh3.googleusercontent.com/d/1Z_58e_mTUpuBQHI7owzBvJyIhKcLLeAF",
       "rating": 4.3,
-      "version": "1.9.0",
-      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.vtvcab.on"
+      "version": "2.1.5",
+      "description": "Xem trực tiếp phim chất lượng cao độ phân giải 4K sống động.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1Z_58e_mTUpuBQHI7owzBvJyIhKcLLeAF","https://lh3.googleusercontent.com/d/1Z_58e_mTUpuBQHI7owzBvJyIhKcLLeAF"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Phim4K-v2.1.5.apk",
+      "packageName": "com.oxootv.spagreen"
     },
     {
       "id": "Phim4",
@@ -287,6 +287,7 @@
     }
   ]
 }
+
 
 
 
