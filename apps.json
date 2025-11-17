@@ -152,12 +152,13 @@
   "Xem Phim": [
     {
       "id": "Phim1",
-      "title": "K+",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "title": "Rổ giải trí",
+      "icon": "https://lh3.googleusercontent.com/d/1P1zLDaiaSrnATkOVx-4eaXX00FSDo7pt",
       "rating": 4.3,
       "version": "1.9.0",
       "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
-      "screenshots": [],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1B0QOetRzPUOULtg-sG-49K5IsfAVi34Z",
+      "https://lh3.googleusercontent.com/d/1_uKJTtmfNO0Px0T19-tpWKjNh35m_6EZ"],
       "downloadUrl": "...",
       "packageName": "com.vtvcab.on"
     },
@@ -281,6 +282,7 @@
     }
   ]
 }
+
 
 
 
