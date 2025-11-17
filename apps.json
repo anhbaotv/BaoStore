@@ -173,7 +173,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1Vv0_oPJ90guV5QRpcDwpQ7Za3siCoDJJ",
       "rating": 4.3,
       "version": "4.6.0",
-      "description": "(pas:nghien android tv) Thật tuyệt vời biết bao khi tận hưởng cuối tuần xem phim 4K không quảng cáo? Thật tuyệt vời biết bao nếu bạn có thể truy cập nội dung yêu thích của mình bằng nhiều ngôn ngữ và có phụ đề?.",
+      "description": "(pas:nghien android tv)là kênh giả trí được tích họp nhiều nguồn bạn có thể chọn.",
       "screenshots": ["https://lh3.googleusercontent.com/d/13tOY-VkA1Oc4BbGgthEOJaTlJfqvv-_8","https://lh3.googleusercontent.com/d/1W5-lwbfwbOBsldItOTy2CM2E0c-FiYbK"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/CloudStream.MOD.apk",
       "packageName": "com.lagradost.cloudstream3"
@@ -287,6 +287,7 @@
     }
   ]
 }
+
 
 
 
