@@ -160,6 +160,61 @@
       "screenshots": [],
       "downloadUrl": "...",
       "packageName": "com.vtvcab.on"
+    },
+    {
+      "id": "Phim2",
+      "title": "K+",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "rating": 4.3,
+      "version": "1.9.0",
+      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.vtvcab.on"
+    },
+    {
+      "id": "Phim3",
+      "title": "K+",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "rating": 4.3,
+      "version": "1.9.0",
+      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.vtvcab.on"
+    },
+    {
+      "id": "Phim4",
+      "title": "K+",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "rating": 4.3,
+      "version": "1.9.0",
+      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.vtvcab.on"
+    },
+    {
+      "id": "Phim5",
+      "title": "K+",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "rating": 4.3,
+      "version": "1.9.0",
+      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.vtvcab.on"
+    },
+    {
+      "id": "Phim6",
+      "title": "K+",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "rating": 4.3,
+      "version": "1.9.0",
+      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.vtvcab.on"
     }
   ],
   "Thể Thao": [
@@ -226,6 +281,7 @@
     }
   ]
 }
+
 
 
 
