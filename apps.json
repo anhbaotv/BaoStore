@@ -231,7 +231,7 @@
       "rating": 4.6,
       "version": "0.1.9",
       "description": "Giao diện tùy biến cho Android TV.",
-      "screenshots": [],
+      "screenshots": ["https://lh3.googleusercontent.com/d/d/1g3TqVUxoI-V8Xi_pzQF6zDNtmRNQULpp",],
       "downloadUrl": "...",
       "packageName": "org.tv.launcher"
     },
@@ -342,6 +342,7 @@
     }
   ]
 }
+
 
 
 
