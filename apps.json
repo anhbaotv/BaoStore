@@ -227,7 +227,7 @@
     {
       "id": "th1",
       "title": "ATV Launcher",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/atvlauncher.png",
+      "icon": "https://github.com/anhbaotv/BaoStore/blob/main/logo.png",
       "rating": 4.6,
       "version": "0.1.9",
       "description": "Giao diện tùy biến cho Android TV.",
@@ -240,7 +240,7 @@
     {
       "id": "app1",
       "title": "YouTube",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/youtube.png",
+      "icon": "https://github.com/anhbaotv/BaoStore/blob/main/logo.png",
       "rating": 4.7,
       "version": "2.18.5",
       "description": "Xem video trực tuyến phổ biến nhất.",
@@ -251,7 +251,7 @@
     {
       "id": "app2",
       "title": "Trình duyệt TV Bro",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/tvbro.png",
+      "icon": "https://github.com/anhbaotv/BaoStore/blob/main/logo.png",
       "rating": 4.1,
       "version": "1.7.2",
       "description": "Trình duyệt web tối ưu cho điều khiển TV.",
@@ -264,7 +264,7 @@
     {
       "id": "gm1",
       "title": "Asphalt 8",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/asphalt8.png",
+      "icon": "https://github.com/anhbaotv/BaoStore/blob/main/logo.png",
       "rating": 4.5,
       "version": "6.0.0",
       "description": "Game đua xe tốc độ cao.",
@@ -277,7 +277,7 @@
     {
       "id": "new1",
       "title": "Ứng dụng Mới",
-      "icon": "https://via.placeholder.com/300x170.png?text=New+App",
+      "icon": "https://github.com/anhbaotv/BaoStore/blob/main/logo.png",
       "rating": 5.0,
       "version": "1.0.0",
       "description": "Một ứng dụng hoàn toàn mới.",
@@ -287,6 +287,7 @@
     }
   ]
 }
+
 
 
 
