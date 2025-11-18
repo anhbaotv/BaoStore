@@ -202,25 +202,25 @@
     },
     {
       "id": "Phim5",
-      "title": "K+",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "title": "KODI",
+      "icon": "https://lh3.googleusercontent.com/d/1kvgfMn_di8c_jgVEc5MTzRK22LJEihbL",
       "rating": 4.3,
-      "version": "1.9.0",
+      "version": "21.2",
       "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.vtvcab.on"
+      "screenshots": ["https://lh3.googleusercontent.com/d/1J6yoq8mmHtprWmiyMReDwzR9zxCqIkfd","https://lh3.googleusercontent.com/d/1N93d-c8DpwgK2-w62M5VKnPM-ijlCRsB"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Kodi.v.21.2.apk",
+      "packageName": "org.xbmc.kodi"
     },
     {
       "id": "Phim6",
-      "title": "K+",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "title": "PhimNe",
+      "icon": "https://lh3.googleusercontent.com/d/1UKPpvBnLr-_omWUwyafsc4JrChFKFyz_",
       "rating": 4.3,
-      "version": "1.9.0",
+      "version": "3.1.1",
       "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.vtvcab.on"
+      "screenshots": ["https://lh3.googleusercontent.com/d/1g3TqVUxoI-V8Xi_pzQF6zDNtmRNQULpp","https://lh3.googleusercontent.com/d/18qn6PEaUjqnS6ZqnTYOLyfMsPIaFOdWr"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/PhimNe.v.3.1.1.apk",
+      "packageName": "com.jakendis.streambox"
     }
   ],
   "Thể Thao": [
@@ -287,6 +287,7 @@
     }
   ]
 }
+
 
 
 
