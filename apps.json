@@ -192,11 +192,11 @@
     {
       "id": "Phim4",
       "title": "iQIYI",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/icons/kplus.png",
+      "icon": "https://lh3.googleusercontent.com/d/17ypQpN7Ohkn4p538-KvubPpHDq2jP7s-",
       "rating": 4.3,
       "version": "1.9.0",
       "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
-      "screenshots": [],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1D9sVlqRmTYo3kA4YCAF2hFzYTQUC-AKD","https://lh3.googleusercontent.com/d/1H2gerGrIoK8Z1ADdDyKn2-u-M85RW8mW"],
       "downloadUrl": "...",
       "packageName": "com.vtvcab.on"
     },
@@ -287,6 +287,7 @@
     }
   ]
 }
+
 
 
 
