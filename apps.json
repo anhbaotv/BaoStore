@@ -229,10 +229,10 @@
       "title": "MonPlayerTV",
       "icon": "https://lh3.googleusercontent.com/d/1zrzB7r1uNHB1buQVeRAnlBtdFp7XtRpO",
       "rating": 4.6,
-      "version": "0.1.9",
+      "version": "1.0.11",
       "description": "Giao diện tùy biến cho Android TV.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1HHIHzJfMTUsZiT-sBQd9AE7aK6nP8Fgy","https://lh3.googleusercontent.com/d/1lV0kxvAAhcT--FtB1p1qXOBLuZ4aGT5s"],
-      "downloadUrl": "...",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Monplayer.apk",
       "packageName": "org.monplayer.mpapferrari"
     },
     {
@@ -240,10 +240,10 @@
       "title": "SportsTV",
       "icon": "https://lh3.googleusercontent.com/d/1Mc5fxKY8AOISsTtLjRDhz6UgD_0J0waa",
       "rating": 4.6,
-      "version": "0.1.9",
+      "version": "5.1.1",
       "description": "Giao diện tùy biến cho Android TV.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1b6ltmlcKEULdVsrebMHWiFiTL5MTngw7","https://lh3.googleusercontent.com/d/10Jozu1h3_mRkdlLh6I4hCvFifOSs2CuN"],
-      "downloadUrl": "...",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Sports.tv.v.5.1.1.apk",
       "packageName": "com.sports.tv"
     },
     {
@@ -251,10 +251,10 @@
       "title": "SportzX",
       "icon": "https://lh3.googleusercontent.com/d/1-rAayzRWafW4tqQ7m8On6Np061HQuSjV",
       "rating": 4.6,
-      "version": "0.1.9",
+      "version": "2.1",
       "description": "Giao diện tùy biến cho Android TV.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1knxLD_R_AEAVtuiHvnDeTop4bn8JAjEa"],
-      "downloadUrl": "...",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Sportzx.live.v.2.1.apk",
       "packageName": "com.sportzx.live"
     },
     {
@@ -342,6 +342,7 @@
     }
   ]
 }
+
 
 
 
