@@ -259,7 +259,7 @@
     },
     {
       "id": "th4",
-      "title": "ATV Launcher",
+      "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.6,
       "version": "0.1.9",
@@ -270,7 +270,7 @@
     },
     {
       "id": "th5",
-      "title": "ATV Launcher",
+      "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.6,
       "version": "0.1.9",
@@ -281,7 +281,7 @@
     },
     {
       "id": "th6",
-      "title": "ATV Launcher",
+      "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.6,
       "version": "0.1.9",
@@ -294,7 +294,7 @@
   "KaRaoKe": [
     {
       "id": "app1",
-      "title": "YouTube",
+      "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.7,
       "version": "2.18.5",
@@ -305,7 +305,7 @@
     },
     {
       "id": "app2",
-      "title": "Trình duyệt TV Bro",
+      "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.1,
       "version": "1.7.2",
@@ -318,7 +318,7 @@
   "Trình Duyệt": [
     {
       "id": "gm1",
-      "title": "Asphalt 8",
+      "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.5,
       "version": "6.0.0",
@@ -331,7 +331,20 @@
   "Camera": [
     {
       "id": "new1",
-      "title": "Ứng dụng Mới",
+      "title": "Đang cập nhật",
+      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "rating": 5.0,
+      "version": "1.0.0",
+      "description": "Một ứng dụng hoàn toàn mới.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.example.newapp"
+    }
+  ],
+  "Camera": [
+    {
+      "id": "new1",
+      "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 5.0,
       "version": "1.0.0",
@@ -342,6 +355,7 @@
     }
   ]
 }
+
 
 
 
