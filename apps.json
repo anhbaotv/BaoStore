@@ -293,7 +293,7 @@
   ],
   "KaRaoKe-Âm nhạc": [
     {
-      "id": "app1",
+      "id": "ka1",
       "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.7,
@@ -304,7 +304,7 @@
       "packageName": "com.google.android.youtube.tv"
     },
     {
-      "id": "app2",
+      "id": "ka2",
       "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.1,
@@ -313,7 +313,50 @@
       "screenshots": [],
       "downloadUrl": "...",
       "packageName": "com.phlox.tvwebbrowser"
-    }
+    },
+    {
+      "id": "ka3",
+      "title": "Đang cập nhật",
+      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "rating": 4.1,
+      "version": "1.7.2",
+      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.phlox.tvwebbrowser"
+    },{
+      "id": "ka4",
+      "title": "Đang cập nhật",
+      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "rating": 4.1,
+      "version": "1.7.2",
+      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.phlox.tvwebbrowser"
+    },
+    {
+      "id": "ka5",
+      "title": "Đang cập nhật",
+      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "rating": 4.1,
+      "version": "1.7.2",
+      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.phlox.tvwebbrowser"
+    },
+    {
+      "id": "ka6",
+      "title": "Đang cập nhật",
+      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "rating": 4.1,
+      "version": "1.7.2",
+      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
+      "screenshots": [],
+      "downloadUrl": "...",
+      "packageName": "com.phlox.tvwebbrowser"
+    }   
   ],
   "Trình Duyệt": [
     {
@@ -355,6 +398,7 @@
     }
   ]
 }
+
 
 
 
