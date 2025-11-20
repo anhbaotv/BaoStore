@@ -56,13 +56,13 @@
       "title": "FPTPlay",
       "icon": "https://lh3.googleusercontent.com/d/1vmuSa3KvAKxcvlGpxQiaCnNNsCfaIscC",
       "rating": 4.5,
-      "version": "2.1.0",
+      "version": "7.25.10",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1df9mNRKOlE-uN-o7RotqrJ_8z-1xZE9i",
         "https://lh3.googleusercontent.com/d/1tMIok_HwAASINy4kqwO0P0Jda1bRZ5wg" ],
-      "downloadUrl": "...",
-      "packageName": ""
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/FPTPLAY.v.7.25.10.apk",
+      "packageName": "net.fptplay.ottbox"
      },
      {
       "id": "tv6",
@@ -291,7 +291,7 @@
       "packageName": "org.tv.launcher"
     }
   ],
-  "KaRaoKe": [
+  "KaRaoKe-Âm nhạc": [
     {
       "id": "app1",
       "title": "Đang cập nhật",
@@ -355,6 +355,7 @@
     }
   ]
 }
+
 
 
 
