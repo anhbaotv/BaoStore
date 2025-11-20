@@ -259,25 +259,25 @@
     },
     {
       "id": "th4",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "Cricfy TV",
+      "icon": "https://lh3.googleusercontent.com/d/1lqToJ_XgvnfQ8L44PbF7Fm449ekCRxxe",
       "rating": 4.6,
-      "version": "0.1.9",
-      "description": "Giao diện tùy biến cho Android TV.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "org.tv.launcher"
+      "version": "5.3",
+      "description": "Trực tiếp thể thao vv....",
+      "screenshots": ["https://lh3.googleusercontent.com/d/13pZhSGTD1Cdi5qgEQiWIa7zi2_xmt0Yr","https://lh3.googleusercontent.com/d/1M5wEiVMiujX9e8HnnRWH1EZ7vQi6-eBX"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Cricfy.tv.v.5.3.apk",
+      "packageName": "com.cricfy.tv"
     },
     {
       "id": "th5",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "RBTV+",
+      "icon": "https://lh3.googleusercontent.com/d/1d-uIhwVfv2ese1Tm9F-rzbw3ESos21_D",
       "rating": 4.6,
-      "version": "0.1.9",
-      "description": "Giao diện tùy biến cho Android TV.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "org.tv.launcher"
+      "version": "3.0.306",
+      "description": "Trực tiếp thể thao vv.....",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1kJilcQdNRqV6hXbD9Ca_6UPs-rcRxMQc"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Rblive.tv.v.3.0.306.apk",
+      "packageName": "com.rblive.tv"
     },
     {
       "id": "th6",
@@ -355,6 +355,7 @@
     }
   ]
 }
+
 
 
 
