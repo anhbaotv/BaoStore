@@ -326,14 +326,14 @@
       "packageName": "vn.hkara.tv"
     },{
       "id": "ka4",
-      "title": "Đang cập nhật",
+      "title": "Spotify TV",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.1,
-      "version": "1.7.2",
-      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.phlox.tvwebbrowser"
+      "version": "1.90",
+      "description": "Trình nghe nhạc trên Android TV.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1PeAk0OSUfYDDl9I8XGxI52u2dV61WySP","https://lh3.googleusercontent.com/d/1YKPccznnZl2UAtH4AU14qzfHLwWOiMRQ"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/spotify.V1.90.apk",
+      "packageName": "com.spotify.tv.android"
     },
     {
       "id": "ka5",
@@ -398,6 +398,7 @@
     }
   ]
 }
+
 
 
 
