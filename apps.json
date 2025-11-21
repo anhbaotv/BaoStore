@@ -294,25 +294,25 @@
   "KaRaoKe-Âm nhạc": [
     {
       "id": "ka1",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "SmartKaraoke",
+      "icon": "https://lh3.googleusercontent.com/d/1Eydojwu9sUt_8y0hv-r7KdbMOmeTdxVl",
       "rating": 4.7,
-      "version": "2.18.5",
-      "description": "Xem video trực tuyến phổ biến nhất.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.google.android.youtube.tv"
+      "version": "3.52",
+      "description": "Smart Karaoke Player là phần mềm karaoke chuyên nghiệp dành cho các đầu HD – 4K, Android Box.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1shIWB4PGGgiDR1oV_xwq2L2pO0W6w7NZ","https://lh3.googleusercontent.com/d/19ICxhD8kNeanL7r-XHUhDPRmLRPik5t-"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartKaraokePlayerPRO_v3.52_RTD.apk",
+      "packageName": "com.smartkaraoke.playerpro"
     },
     {
       "id": "ka2",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "KCMS",
+      "icon": "https://lh3.googleusercontent.com/d/1ApmZqtxjIfp9qAmNVm2hoLO0CHiDapTt",
       "rating": 4.1,
-      "version": "1.7.2",
-      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.phlox.tvwebbrowser"
+      "version": "1.0.89",
+      "description": "karaoke chuyên nghiệp dành cho các đầu Android Box.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1bgVtb75XFPknhqQ-UGEjPz1lDndsrxjw","https://lh3.googleusercontent.com/d/1-kfdOVBnjp8P5yJ4kSqzeKBMOlNt4FtQ"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/KCMS_Online_1.0.89.apk",
+      "packageName": "com.example.karaokeonline"
     },
     {
       "id": "ka3",
@@ -398,6 +398,7 @@
     }
   ]
 }
+
 
 
 
