@@ -316,14 +316,14 @@
     },
     {
       "id": "ka3",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "AmazingTV",
+      "icon": "https://lh3.googleusercontent.com/d/1XD2hr-l-RiZejQHTEKh7JNpOdzPrPm32",
       "rating": 4.1,
-      "version": "1.7.2",
-      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.phlox.tvwebbrowser"
+      "version": "0.1.19",
+      "description": "AmazingKTV chỉ được cài đặt sẵn và chạy độc quyền trên thiết bị VietK VBox 8K.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1U7-VEWU2XZrNwJc4NGVytaY28-7uyxty","https://lh3.googleusercontent.com/d/1jWrklNu8FndZskT5jBDSVKQyEI6sMasd"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Amazing.KTV.vn.hkara.tv.v.0.1.19-tv.apk",
+      "packageName": "vn.hkara.tv"
     },{
       "id": "ka4",
       "title": "Đang cập nhật",
@@ -398,6 +398,7 @@
     }
   ]
 }
+
 
 
 
