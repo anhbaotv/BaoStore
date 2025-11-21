@@ -337,14 +337,14 @@
     },
     {
       "id": "ka5",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "ZingMP3 TV",
+      "icon": "https://lh3.googleusercontent.com/d/1Ylwj2QGp9kJAS0FuEJMMmrprFiXNZh2F",
       "rating": 4.1,
-      "version": "1.7.2",
-      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.phlox.tvwebbrowser"
+      "version": "23.09",
+      "description": "Khám phá niềm vui âm nhạc không giới hạn với Zing Mp3, một nền tảng được thiết kế đặc biệt dành riêng cho người dùng Android TV.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1glaM3ehZZqSphlHHjxkCYgN45J9bewrP","https://lh3.googleusercontent.com/d/1rPknPN_lB_TlEQl-UrPU0hjDrZYmJShc"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/zing.mp3.v.23.09.apk",
+      "packageName": "vng.zing.mp3"
     },
     {
       "id": "ka6",
@@ -398,6 +398,7 @@
     }
   ]
 }
+
 
 
 
