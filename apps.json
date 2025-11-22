@@ -405,14 +405,14 @@
     },
     {
       "id": "td5",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "Smartbrowser",
+      "icon": "https://lh3.googleusercontent.com/d/1pmw3lM3KPROs3UgGaqongrSO4VFx67As",
       "rating": 4.5,
-      "version": "6.0.0",
-      "description": "Game đua xe tốc độ cao.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.gameloft.android.ANMP.GloftA8HM"
+      "version": "1.0.8",
+      "description": "Trình duyệt cho cấu hình thấp.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1aU_IDGfl5yS4IHkHTT5OKO0aW79k72vd"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/vsmart_browser.apk",
+      "packageName": "com.vsmart.vsmartbrowser"
     }
   ],
   "Camera": [
@@ -442,6 +442,7 @@
     }
   ]
 }
+
 
 
 
