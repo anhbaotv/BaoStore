@@ -360,7 +360,51 @@
   ],
   "Trình Duyệt": [
     {
-      "id": "gm1",
+      "id": "td1",
+      "title": "ChomeTV",
+      "icon": "https://lh3.googleusercontent.com/d/1TDc0JKajGdtV-rOSyRxyDeiQcJq6K_HJ",
+      "rating": 4.5,
+      "version": "57.0.2987",
+      "description": "Chrome giúp bạn làm mọi việc có thể trên web.Trình duyệt tốc độ cao và bảo mật của Google.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1J4yvIXPEDShJHbm7iNXF9adOSJkzS_GT","https://lh3.googleusercontent.com/d/1dzkKb13-_lF4Wqqg17F-Keerk3t5289e"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Chrome.v.57.0.2987.132.apk",
+      "packageName": "com.android.chrome"
+    },
+    {
+      "id": "td2",
+      "title": "CocCoc",
+      "icon": "https://lh3.googleusercontent.com/d/15MqkjZHvuERdjqF7gJgEWvmrVbgtiezu",
+      "rating": 4.5,
+      "version": "1.6",
+      "description": "Cốc Cốc là trình duyệt web và công cụ tìm kiếm dành cho người Việt.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1H7qczlZd-ltsQkY8uMk4UddsI9cD1vcd","https://lh3.googleusercontent.com/d/1DC0bwlftNkaLR59XwQDqJdcAornBtA39"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/CocCoc_tvlite.v.1.6.apk",
+      "packageName": "com.coccoc.trinhduyet_tvlite"
+    },
+    {
+      "id": "td3",
+      "title": "Firefox",
+      "icon": "https://lh3.googleusercontent.com/d/1SLGMMIY6GmQMjxr2ZFuqzDDn6fXnBGIL",
+      "rating": 4.5,
+      "version": "4.7.1",
+      "description": "Firefox là một trình duyệt web miễn phí, mã nguồn mở do Mozilla Foundation phát triển. Nó được biết đến với các tính năng tập trung vào quyền riêng tư, tốc độ duyệt web và khả năng tùy biến cao.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1-rfVOHE1jERwTarpIoKrGcmgW_5fJSzE","https://lh3.googleusercontent.com/d/1baNxC8UjcVUv1dyVffgNpP10MdLw4PLH"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Firefox.v.4.7.1.apk",
+      "packageName": "org.mozilla.tv.firefox"
+    },
+    {
+      "id": "td4",
+      "title": "Jiosphere",
+      "icon": "https://lh3.googleusercontent.com/d/1L9tXebacfDwYlffi576tSW56iGZUwvHd",
+      "rating": 4.5,
+      "version": "8.0.2.4",
+      "description": "JioSphere là một trình duyệt web, có các phiên bản dành cho Android TV và máy tính cá nhân. Tên gọi này cũng có thể ám chỉ đến JioCoin, một token thưởng dựa trên blockchain được phát hành bởi Jio Platforms Limited.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1q5Ztr6BNL0bnPMX86faR-he9gklyjBsq","https://lh3.googleusercontent.com/d/1CQpTbFBPDsnVpJEvf4Dwt9B-yGxKzhnx"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/jiosphere.v.8.0.2.4.apk",
+      "packageName": "com.jio.web.androidtv"
+    },
+    {
+      "id": "td5",
       "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.5,
@@ -398,6 +442,7 @@
     }
   ]
 }
+
 
 
 
