@@ -195,7 +195,7 @@
       "icon": "https://lh3.googleusercontent.com/d/17ypQpN7Ohkn4p538-KvubPpHDq2jP7s-",
       "rating": 4.3,
       "version": "1.9.0",
-      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "description": "iQIYI là một nền tảng xem video trực tuyến của Trung Quốc, thuộc sở hữu của tập đoàn Baidu, cung cấp một kho nội dung giải trí đa dạng bao gồm phim truyền hình, điện ảnh, chương trình truyền hình và anime. Nền tảng này có phiên bản quốc tế với phụ đề đa ngôn ngữ, bao gồm tiếng Việt, để phục vụ người xem trên toàn thế giới. ",
       "screenshots": ["https://lh3.googleusercontent.com/d/1D9sVlqRmTYo3kA4YCAF2hFzYTQUC-AKD","https://lh3.googleusercontent.com/d/1H2gerGrIoK8Z1ADdDyKn2-u-M85RW8mW"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iQIYI.v.9.3.1.apk",
       "packageName": "com.iqiyi.i18n.tv"
@@ -206,7 +206,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1kvgfMn_di8c_jgVEc5MTzRK22LJEihbL",
       "rating": 4.3,
       "version": "21.2",
-      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "description": "Kodi là một ứng dụng phần mềm trung tâm giải trí đa phương tiện miễn phí và mã nguồn mở, cho phép người dùng xem phim, nghe nhạc, xem ảnh và truy cập nhiều nội dung khác từ nhiều nguồn như ổ cứng, mạng nội bộ hoặc Internet. Ứng dụng có thể tùy biến giao diện .",
       "screenshots": ["https://lh3.googleusercontent.com/d/1J6yoq8mmHtprWmiyMReDwzR9zxCqIkfd","https://lh3.googleusercontent.com/d/1N93d-c8DpwgK2-w62M5VKnPM-ijlCRsB"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Kodi.v.21.2.apk",
       "packageName": "org.xbmc.kodi"
@@ -217,7 +217,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1UKPpvBnLr-_omWUwyafsc4JrChFKFyz_",
       "rating": 4.3,
       "version": "3.1.1",
-      "description": "Xem trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
+      "description": "Xem phim online miễn phí với chất lượng.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1g3TqVUxoI-V8Xi_pzQF6zDNtmRNQULpp","https://lh3.googleusercontent.com/d/18qn6PEaUjqnS6ZqnTYOLyfMsPIaFOdWr"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/PhimNe.v.3.1.1.apk",
       "packageName": "com.jakendis.streambox"
@@ -230,7 +230,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1zrzB7r1uNHB1buQVeRAnlBtdFp7XtRpO",
       "rating": 4.6,
       "version": "1.0.11",
-      "description": "Giao diện tùy biến cho Android TV.",
+      "description": "MonPlayer TV là một ứng dụng xem thể thao, xem phim miễn phí với chất lượng cao và mượt mà, có sẵn trên các thiết bị Android TV.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1HHIHzJfMTUsZiT-sBQd9AE7aK6nP8Fgy","https://lh3.googleusercontent.com/d/1lV0kxvAAhcT--FtB1p1qXOBLuZ4aGT5s"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Monplayer.apk",
       "packageName": "org.monplayer.mpapferrari"
@@ -241,7 +241,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1Mc5fxKY8AOISsTtLjRDhz6UgD_0J0waa",
       "rating": 4.6,
       "version": "5.1.1",
-      "description": "Giao diện tùy biến cho Android TV.",
+      "description": "SportsTV có thể là một ứng dụng cung cấp nội dung thể thao, như phim và chương trình truyền hình thể thao,Được thêm từ các nguồn bên ngoài.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1b6ltmlcKEULdVsrebMHWiFiTL5MTngw7","https://lh3.googleusercontent.com/d/10Jozu1h3_mRkdlLh6I4hCvFifOSs2CuN"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Sports.tv.v.5.1.1.apk",
       "packageName": "com.sports.tv"
@@ -252,7 +252,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1-rAayzRWafW4tqQ7m8On6Np061HQuSjV",
       "rating": 4.6,
       "version": "2.1",
-      "description": "Giao diện tùy biến cho Android TV.",
+      "description": "SportzX là một ứng dụng xem thể thao, xem phim miễn phí.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1knxLD_R_AEAVtuiHvnDeTop4bn8JAjEa"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Sportzx.live.v.2.1.apk",
       "packageName": "com.sportzx.live"
@@ -285,7 +285,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.6,
       "version": "0.1.9",
-      "description": "Giao diện tùy biến cho Android TV.",
+      "description": "",
       "screenshots": [],
       "downloadUrl": "...",
       "packageName": "org.tv.launcher"
@@ -352,7 +352,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 4.1,
       "version": "1.7.2",
-      "description": "Trình duyệt web tối ưu cho điều khiển TV.",
+      "description": "",
       "screenshots": [],
       "downloadUrl": "...",
       "packageName": "com.phlox.tvwebbrowser"
@@ -415,7 +415,7 @@
       "packageName": "com.vsmart.vsmartbrowser"
     }
   ],
-  "Camera": [
+  "Quăn lý file-Bluetooth": [
     {
       "id": "new1",
       "title": "Đang cập nhật",
@@ -428,7 +428,7 @@
       "packageName": "com.example.newapp"
     }
   ],
-  "Tiện Ích": [
+  "Tìm kiếm giọng nói-Bàn phím": [
     {
       "id": "tc1",
       "title": "Đang cập nhật",
@@ -442,6 +442,7 @@
     }
   ]
 }
+
 
 
 
