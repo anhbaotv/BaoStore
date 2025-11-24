@@ -434,7 +434,7 @@
       "rating": 5.0,
       "version": "4.44.20",
       "description": "X-plore: Một ứng dụng quản lý tệp tin trên thiết bị Android, có giao diện hai ngăn và nhiều tính năng hữu ích như quản lý ứng dụng, truy cập tệp qua Wi-Fi.",
-      "screenshots": ["https://lh3.googleusercontent.com/d/12YgqSsn1zALPLcbwDMl10vyhkEOwpdf7"],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1p_0qhX2PsUh5w9rEwyg9V8rz9k5SzZpm"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Xplore.v.4.44.20.apk",
       "packageName": "com.lonelycatgames.Xplore"
     },
@@ -497,6 +497,7 @@
     }
   ]
 }
+
 
 
 
