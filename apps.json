@@ -455,7 +455,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1wHIW89YYIMS-p2rRlk1OebkTcpcyyq0a",
       "rating": 5.0,
       "version": "1.4.1",
-      "description": "Send Files to TV là một ứng dụng đơn giản giúp bạn gửi và nhận tệp tin (như phim, ảnh, nhạc, tài liệu, tệp APK) giữa các thiết bị Android.",
+      "description": "Send Files to TV là một ứng dụng đơn giản giúp bạn gửi và nhận tệp tin như phim, ảnh, nhạc, tài liệu, tệp APK giữa các thiết bị Android.",
       "screenshots": ["https://lh3.googleusercontent.com/d/16Yvo3p1MSThEMSm8RtayyuFV_E8jA1-f","https://lh3.googleusercontent.com/d/1yy71Eb7bM20tLxUP71R7n6bBvmwV6MHo"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Send.Files.To.TV.v1.4.1.Premium.apk",
       "packageName": "com.yablio.sendfilestotv"
@@ -497,6 +497,7 @@
     }
   ]
 }
+
 
 
 
