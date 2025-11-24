@@ -31,7 +31,7 @@
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/14Fxn-maa_7MQl3qaqOBTG-jMcBrvHdFU"],
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/VietPlay.TV.apk",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/VietPlay.TV.v.2.2.apk",
       "packageName": "com.nghenhin24h.vietplaytv"
     },
     {
@@ -494,6 +494,7 @@
     }
   ]
 }
+
 
 
 
