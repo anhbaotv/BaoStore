@@ -462,25 +462,25 @@
     },
     {
       "id": "new5",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "Tìm Bluetooth",
+      "icon": "https://lh3.googleusercontent.com/d/1C6Ys7U8rAUlMgHA-PyzQDFZwO-ndVSPa",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
+      "version": "2.0",
+      "description": "Là ứng dụng trên Android TV giúp quét, tìm kiếm và kết nối với các thiết bị Bluetooth khác như tai nghe, loa, hoặc các thiết bị khác.",
       "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/bluetoothtvscanner.v.2.0.apk",
+      "packageName": "com.zdworksinc.bluetoothtvscanner"
     },
     {
       "id": "new6",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "Bluetooth Remote",
+      "icon": "https://lh3.googleusercontent.com/d/1ZL6saf9FSDScKbOfScvpLNHnXY6Iv5Tz",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
+      "version": "1.6.0",
+      "description": "Bluetooth Remote là một thiết bị điều khiển từ xa kết nối với điện thoại thông minh với TV Box ,AndroidTV.",
       "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/btremote.v.1.6.0.apk",
+      "packageName": "com.atharok.btremote"
     }
   ],
   "Tìm kiếm giọng nói-Bàn phím": [
@@ -497,6 +497,7 @@
     }
   ]
 }
+
 
 
 
