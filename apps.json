@@ -14,21 +14,18 @@
     {
       "id": "tv2",
       "title": "MonsterTV",
-      "icon": "https://i.postimg.cc/m22JrTcf/unnamed.png",
+      "icon": "https://lh3.googleusercontent.com/d/1LHHZiXGddPnq-H7M812RAXdrQsDglgfs",
       "rating": 4.2,
       "version": "3.2.0",
       "description": "Truyền hình trực tuyến,Các kênh truyền hình địa phương, quốc tế: Bao gồm tin tức, thể thao, phim truyện, ca nhạc từ nhiều quốc gia, mở rộng tầm nhìn giải trí toàn cầu ngay tại ngôi nhà của bạn..",
-      "screenshots": [
-        "https://i.postimg.cc/90X8zBQ4/xem-truyen-hinh-mien-phi-tren-Chromecast-with-Google-TV.jpg",
-        "https://i.postimg.cc/3RfpCjZn/xem-bong-da-mien-phi-bang-monster-TV-01.png"
-      ],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1ZkJPi7b3TbqDF0yk6aBAkEmW1vAvaN_M","https://lh3.googleusercontent.com/d/1CalZuyWbOl80qZ2av0mrYApboOBEvz9X"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Monster.TV.v.3.2.0.apk",
       "packageName": "com.quang.monstertv"
     },
     {
       "id": "tv3",
       "title": "VietPlay TV",
-      "icon": "https://i.postimg.cc/K8zHkZQt/app-icon.png",
+      "icon": "https://lh3.googleusercontent.com/d/1zKZ1TsLjq7rpVwcTLGnZIR0QLmVSFROG",
       "rating": 4.5,
       "version": "2.2.0",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
@@ -40,12 +37,12 @@
     {
       "id": "tv4",
       "title": "DLTivi",
-      "icon": "https://i.postimg.cc/7YFDrHzF/unnamed-1.png",
+      "icon": "https://lh3.googleusercontent.com/d/1wxsCLdYcEGQGp1WUYxlTRheK8dJSE3Kv",
       "rating": 4.5,
       "version": "1.5.0",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
-        "https://i.postimg.cc/7YFDrHzF/unnamed-1.png",
+        "https://lh3.googleusercontent.com/d/1wxsCLdYcEGQGp1WUYxlTRheK8dJSE3Kv",
         "https://lh3.googleusercontent.com/d/133vlKybVu5IXHqHnE6exaGkcZex9Xscc"
       ],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/dltv.apk",
@@ -497,6 +494,7 @@
     }
   ]
 }
+
 
 
 
