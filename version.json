@@ -1,5 +1,6 @@
 {
-  "latest_version": "1.0.1", 
-  "update_url": "LINK_TẢI_FILE_APK_CỦA_BẠN",
+  "latest_version": "1.0.2", 
+  "update_url": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoStore_v1.0.2.apk",
   "changelog": "Sửa lỗi hiển thị banner, tăng tốc độ tải."
 }
+
