@@ -527,25 +527,25 @@
     },
     {
       "id": "tk5",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "Bàn phím ATV",
+      "icon": "https://lh3.googleusercontent.com/d/1M_2S3S37qxA853keMy8CA7m0LXaEGO0c",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "1.4.3",
+      "description": "Bàn phím Android TV là một bàn phím ảo hoặc ứng dụng bàn phím vật lý (bàn phím ngoài) được thiết kế để sử dụng trên các thiết bị chạy hệ điều hành Android TV, Fire TV và Smart TV. Nó giúp người dùng nhập liệu, tìm kiếm nội dung và sử dụng các ứng dụng một cách dễ dàng hơn so với việc chỉ dùng remote thông thường.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1E52Y0zDut4wFKy0FHUPQe134_z8A9tMk","https://lh3.googleusercontent.com/d/1b2E42YeWcZV4k7tDtF-EBbAfL3ZirbFv"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Ban.phim.Android.TV_1.4.3.190711.apk",
+      "packageName": "com.ndcsolution.androidtv.leankeykeyboard"
     },
     {
       "id": "tk6",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "LeanKey Keyboard",
+      "icon": "https://lh3.googleusercontent.com/d/1jyIBJmj28fp2gsGAioRdBJdsN9Qsq8Aq",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "6.1.20",
+      "description": "LeanKey Keyboard là một ứng dụng bàn phím gõ tiếng Việt phổ biến cho Android.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1Xn_zu5t83OSaFLjNXhI6Dm8mZBCN0QwL","https://lh3.googleusercontent.com/d/1usNWoV3d8sWR201LTtlGIIUSosVNYdvA"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/LeanKey.Keyboard_6.1.20.apk",
+      "packageName": "org.liskovsoft.androidtv.rukeyboard"
     }
   ],
   "Tiện Ích": [
@@ -562,6 +562,7 @@
     }
   ]
 }
+
 
 
 
