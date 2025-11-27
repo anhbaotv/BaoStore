@@ -551,36 +551,36 @@
   "Tiện Ích": [
     {
       "id": "tc1",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "AIDA64",
+      "icon": "https://lh3.googleusercontent.com/d/1U6QdxZo8AXTZc73NC5FM430plQleW0mq",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "1.98",
+      "description": "AIDA64 là một phần mềm chẩn đoán, kiểm tra và báo cáo thông tin hệ thống cho cả AndroidTV và thiết bị di động.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1BUCE3aH1M8eOKJYHoqIv_uDRI8MCl7h7","https://lh3.googleusercontent.com/d/1qY3bsMPmhSmlnOgETkzA0pxu8AodBhjk"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/AIDA64.v.1.98.apk",
+      "packageName": "com.finalwire.aida64"
     },
     {
       "id": "tc2",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "Set Orientation",
+      "icon": "https://lh3.googleusercontent.com/d/1ICq3qsz0vifzsdNryZMn4i-ox6UN-Jur",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "1.1.4",
+      "description": "Set Orientation cho phép bạn buộc thiết bị của mình theo một hướng màn hình cụ thể( Xoay màn hình ).",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1eHjH3nFR3TWE6mm4KWfWGKhlkMWaU2sY","https://lh3.googleusercontent.com/d/1hJmOKZvqpnHDAWQXqvUZgKHm3Hozc7Lg"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Set.Orientation.v.1.1.4.apk",
+      "packageName": "com.googlecode.eyesfree.setorientation"
     },
     {
       "id": "tc3",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "SAI",
+      "icon": "https://lh3.googleusercontent.com/d/1GDoQeRvnpxlkBRNFB-TS34B676jW8S3H",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "4.5",
+      "description": "SAI có khả năng cài đặt các ứng dụng được phân phối dưới dạng tệp .apk, .xapk, .apkm và .apks..",
+      "screenshots": ["https://lh3.googleusercontent.com/d/17f9dIaRgkHemxBX_mblrXYOLU1caDf-T","https://lh3.googleusercontent.com/d/1wowVXxzOh6eV5raceOWzQdim36C6K1Yi"],,
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SAI.v.4.5.apk",
+      "packageName": "com.aefyr.sai"
     },
     {
       "id": "tc4",
@@ -630,6 +630,7 @@
     }
   ]
 }
+
 
 
 
