@@ -584,36 +584,36 @@
     },
     {
       "id": "tc4",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "Mở các file",
+      "icon": "https://lh3.googleusercontent.com/d/1q6W1l4K1NeS4JDMSKTCU0x09mU68-MID",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "1.4.16",
+      "description": "Hổ trợ mở các file Word, Excel, PowerPoint, Ảnh, Pdf vv....",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1icb5wTWto-uhOJlPd21fIEU3jHsp4stx","https://lh3.googleusercontent.com/d/1yoPo1q9WmPFMK8DGOzh0_ZU_a4r_PSUQ"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/D.c.file.v.1.4.16.apk",
+      "packageName": "com.aboutmycode.betteropenwith"
     },
     {
       "id": "tc5",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "VIETNAM VPN",
+      "icon": "https://lh3.googleusercontent.com/d/1QhvewwmrN2MVtYbSaIh1AHjafQE-DADr",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "4.6.2",
+      "description": "VIETNAM VPN là một công nghệ tạo ra kết nối an toàn và được mã hóa giữa thiết bị của bạn và Internet, giúp ẩn địa chỉ IP thực, bảo vệ quyền riêng tư và truy cập các nội dung bị hạn chế chặn QC Yuotube.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1lmfaFXPdN9dmu0LTvvHrO7k8puPBh-MU","https://lh3.googleusercontent.com/d/1cTm099eiPz2096wTews5ySfbB4uK60D3"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Vietnampvn.v.4.6.2.6.apk",
+      "packageName": "free.vpnvietnam.unlimited.secure.turbo.unblock.proxy"
     },
     {
       "id": "tc6",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "1.1.1.1",
+      "icon": "https://lh3.googleusercontent.com/d/10oZfIxyn1qg1eD7meCvrrp-Bv4sIpjNU",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "6.33",
+      "description": "1.1.1 là ứng dụng dịch vụ VPN miễn phí được phát triển bởi công ty Cloudflare.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1_W9BvqgvHe5euBOS4_E5i6K6LE_2oPoN","https://lh3.googleusercontent.com/d/12sF00U1kytD9NlcIDB7TJvO8IZy1Xj7o"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/1.1.1.1.v.6.33.apk",
+      "packageName": "com.cloudflare.onedotonedotonedotone"
     }
   ],
   "Giao Diện": [
@@ -630,6 +630,7 @@
     }
   ]
 }
+
 
 
 
