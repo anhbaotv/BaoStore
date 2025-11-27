@@ -498,7 +498,7 @@
       "icon": "https://lh3.googleusercontent.com/d/1RuzVkK1W_n48ocKcHgTE8xQpzvpSDbqr",
       "rating": 5.0,
       "version": "2.5.3",
-      "description": "Hổ trợ tìm kiếm giọng nói,Gọi kênh truyền hình,youtube,tìm phim vv...Lưu ý phải gỡi gói usb",
+      "description": "Hổ trợ tìm kiếm giọng nói,Gọi kênh truyền hình,youtube,tìm phim vv...Lưu ý phải gỡi lỗi usb(ADB)",
       "screenshots": ["https://lh3.googleusercontent.com/d/167d0QiwzrJkVpu9YjFvz9yKmlPZPSN8u","https://lh3.googleusercontent.com/d/1YetSoOKhsFOUuneR2v2rR_mtWpn23hfE"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SupperVoice.v.2.5.3.apk",
       "packageName": "com.linor.vn.supperVoice"
@@ -509,7 +509,7 @@
       "icon": "https://lh3.googleusercontent.com/d/17nVuvH5yuyIpxAjPxOB22rZFzJ5PV7tD",
       "rating": 5.0,
       "version": "2.1.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
+      "description": "Hổ trợ tìm kiếm giọng nói,Gọi kênh truyền hình,youtube,tìm phim vv...Lưu ý không cần gỡi lỗi usb(ADB) có hướng dẫn khi cài",
       "screenshots": ["https://lh3.googleusercontent.com/d/167d0QiwzrJkVpu9YjFvz9yKmlPZPSN8u","https://lh3.googleusercontent.com/d/1GtYkCseeyceY7jGWdHjAOfqb-cv313ch"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/MapVoice.v.2.1.0.apk",
       "packageName": "com.linor.vn.mapVoice"
@@ -562,6 +562,7 @@
     }
   ]
 }
+
 
 
 
