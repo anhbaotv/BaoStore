@@ -516,14 +516,14 @@
     },
     {
       "id": "tk4",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "KiKi",
+      "icon": "https://lh3.googleusercontent.com/d/1JLxowVw3QqJ4JDkb9V1DvmmoRz-2LFu1",
       "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
+      "version": "24.01",
+      "description": "Kiki - Android TV là trợ lý ảo giọng nói tiếng Việt dành cho các thiết bị Android TV và TV Box, cho phép người dùng điều khiển TV và thực hiện nhiều tác vụ khác bằng giọng nói. Ứng dụng này giúp bạn mở kênh, xem video trên YouTube, hỏi thông tin thời tiết, giá cả, hay quản lý lịch trình một cách tiện lợi. ",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1vrWQmDFyzMbn6tN5GInXfRR9vE3Sk9cr","https://lh3.googleusercontent.com/d/1riBaUecpRS5v4ktRXgqTyL8g6v4aTy07"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Kiki.v.24.01.01.apk",
+      "packageName": "ai.zalo.kiki.tv"
     },
     {
       "id": "tk5",
@@ -562,6 +562,7 @@
     }
   ]
 }
+
 
 
 
