@@ -483,6 +483,39 @@
   "Tìm kiếm giọng nói-Bàn phím": [
     {
       "id": "tk1",
+      "title": "Google",
+      "icon": "https://lh3.googleusercontent.com/d/18WKENXbVVT2Zi5BRUfRQRdKDckxL91Oi",
+      "rating": 5.0,
+      "version": "7.9.2023",
+      "description": "Tích hợp tính năng điều khiển bằng giọng nói thông qua Google Assistant.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1TaiI_MSc9oRaDZ0Su5nGRFZpMxwC-JmT"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Google.v.7.9.20231101.2.apk",
+      "packageName": "com.google.android.katniss"
+    },
+    {
+      "id": "tk2",
+      "title": "SupperVoice(ADB)",
+      "icon": "https://lh3.googleusercontent.com/d/1RuzVkK1W_n48ocKcHgTE8xQpzvpSDbqr",
+      "rating": 5.0,
+      "version": "2.5.3",
+      "description": "Hổ trợ tìm kiếm giọng nói,Gọi kênh truyền hình,youtube,tìm phim vv...Lưu ý phải gỡi gói usb",
+      "screenshots": ["https://lh3.googleusercontent.com/d/167d0QiwzrJkVpu9YjFvz9yKmlPZPSN8u","https://lh3.googleusercontent.com/d/1YetSoOKhsFOUuneR2v2rR_mtWpn23hfE"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SupperVoice.v.2.5.3.apk",
+      "packageName": "com.linor.vn.supperVoice"
+    },
+    {
+      "id": "tk3",
+      "title": "MapVoice",
+      "icon": "https://lh3.googleusercontent.com/d/17nVuvH5yuyIpxAjPxOB22rZFzJ5PV7tD",
+      "rating": 5.0,
+      "version": "2.1.0",
+      "description": "Một ứng dụng hoàn toàn mới.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/167d0QiwzrJkVpu9YjFvz9yKmlPZPSN8u","https://lh3.googleusercontent.com/d/1GtYkCseeyceY7jGWdHjAOfqb-cv313ch"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/MapVoice.v.2.1.0.apk",
+      "packageName": "com.linor.vn.mapVoice"
+    },
+    {
+      "id": "tk4",
       "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 5.0,
@@ -493,7 +526,7 @@
       "packageName": "com.example.newapp"
     },
     {
-      "id": "tk1",
+      "id": "tk5",
       "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 5.0,
@@ -504,40 +537,7 @@
       "packageName": "com.example.newapp"
     },
     {
-      "id": "tk1",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
-      "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
-    },
-    {
-      "id": "tk1",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
-      "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
-    },
-    {
-      "id": "tk1",
-      "title": "Đang cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
-      "rating": 5.0,
-      "version": "1.0.0",
-      "description": "Một ứng dụng hoàn toàn mới.",
-      "screenshots": [],
-      "downloadUrl": "...",
-      "packageName": "com.example.newapp"
-    },
-    {
-      "id": "tk1",
+      "id": "tk6",
       "title": "Đang cập nhật",
       "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
       "rating": 5.0,
@@ -562,6 +562,7 @@
     }
   ]
 }
+
 
 
 
