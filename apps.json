@@ -578,7 +578,7 @@
       "rating": 5.0,
       "version": "4.5",
       "description": "SAI có khả năng cài đặt các ứng dụng được phân phối dưới dạng tệp .apk, .xapk, .apkm và .apks..",
-      "screenshots": ["https://lh3.googleusercontent.com/d/17f9dIaRgkHemxBX_mblrXYOLU1caDf-T","https://lh3.googleusercontent.com/d/1wowVXxzOh6eV5raceOWzQdim36C6K1Yi"],,
+      "screenshots": ["https://lh3.googleusercontent.com/d/17f9dIaRgkHemxBX_mblrXYOLU1caDf-T","https://lh3.googleusercontent.com/d/1wowVXxzOh6eV5raceOWzQdim36C6K1Yi"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SAI.v.4.5.apk",
       "packageName": "com.aefyr.sai"
     },
@@ -630,6 +630,7 @@
     }
   ]
 }
+
 
 
 
