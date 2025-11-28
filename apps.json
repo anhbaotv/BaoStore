@@ -94,16 +94,29 @@
       "title": "SmartTube",
       "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc",
       "rating": 4.0,
-      "version": "30.42",
+      "version": "30.48",
       "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU",
         "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"],
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube.v.30.43.apk",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube_stable_30.48_armeabi-v7a.apk",
       "packageName": "com.teamsmart.videomanager.tv"
     },
     {
       "id": "Youtube3",
+      "title": "SmartTube(beta)",
+      "icon": "https://lh3.googleusercontent.com/d/1Xr4OneYRA30hOmhTfFeO5Tts8KyJhfxJ",
+      "rating": 4.0,
+      "version": "30.55",
+      "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1Xr4OneYRA30hOmhTfFeO5Tts8KyJhfxJ",
+        "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube_beta_30.55_armeabi-v7a.apk",
+      "packageName": "com.teamsmart.videomanager.tv"
+    },
+    {
+      "id": "Youtube4",
       "title": "TiZenTube(Mod)",
       "icon": "https://lh3.googleusercontent.com/d/1gyy-iR0bCY_Z0vyNktXfQIYhC0KJO3on",
       "rating": 4.0,
@@ -116,7 +129,7 @@
       "packageName": "com.google.android.youtube.tv"
     },
     {
-      "id": "Youtube4",
+      "id": "Youtube5",
       "title": "TiZenTube",
       "icon": "https://lh3.googleusercontent.com/d/1gyy-iR0bCY_Z0vyNktXfQIYhC0KJO3on",
       "rating": 4.0,
@@ -129,7 +142,7 @@
       "packageName": "com.cobalt.youtube.tv"
     },
     {
-      "id": "Youtube5",
+      "id": "Youtube6",
       "title": "YouTube Revanced",
       "icon": "https://lh3.googleusercontent.com/d/1b9JzurKb6mPoGNWhv1mgVmcRSLgHNpJX",
       "rating": 4.0,
@@ -140,7 +153,7 @@
       "packageName": ""
     },
     {
-      "id": "Youtube6",
+      "id": "Youtube7",
       "title": "MicroG",
       "icon": "https://lh3.googleusercontent.com/d/1b9JzurKb6mPoGNWhv1mgVmcRSLgHNpJX",
       "rating": 4.0,
@@ -630,6 +643,7 @@
     }
   ]
 }
+
 
 
 
