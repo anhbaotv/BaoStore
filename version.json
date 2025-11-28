@@ -1,6 +1,7 @@
 {
-  "latest_version": "1.0.4",
-  "update_url": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoStore_v1.0.4.apk",
-  "changelog": "- Sửa lỗi hiển thị Banner bị cắt.\n- Tăng tốc độ tải ảnh.\n- Cập nhật giao diện tìm kiếm."
+  "latest_version": "1.0.5",
+  "update_url": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoStore_v1.0.5.apk",
+  "changelog": "- Thay đổi nền online.\n- Tăng tốc độ tải ảnh.\n- Cập nhật giao diện tìm kiếm."
 }
+
 
