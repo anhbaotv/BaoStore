@@ -91,13 +91,13 @@
     },
     {
       "id": "Youtube2",
-      "title": "SmartTube",
+      "title": "SmartTube(stable)",
       "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc",
       "rating": 4.0,
       "version": "30.48",
       "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
       "screenshots": [
-        "https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU",
+        "https://lh3.googleusercontent.com/d/1i6QHWkn4TLAEejn8FIEyUU1V1LJEKhFp",
         "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube_stable_30.48_armeabi-v7a.apk",
       "packageName": "com.teamsmart.videomanager.tv"
@@ -110,7 +110,7 @@
       "version": "30.55",
       "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
       "screenshots": [
-        "https://lh3.googleusercontent.com/d/1Xr4OneYRA30hOmhTfFeO5Tts8KyJhfxJ",
+        "https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU",
         "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube_beta_30.55_armeabi-v7a.apk",
       "packageName": "com.teamsmart.videomanager.tv"
@@ -643,6 +643,7 @@
     }
   ]
 }
+
 
 
 
