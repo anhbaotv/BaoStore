@@ -49,7 +49,7 @@
       "packageName": "com.dinhlap.tivi"
     },
     {
-      "id": "tv5",
+      "id": "tv6",
       "title": "FPTPlay",
       "icon": "https://lh3.googleusercontent.com/d/1vmuSa3KvAKxcvlGpxQiaCnNNsCfaIscC",
       "rating": 4.5,
@@ -62,14 +62,14 @@
       "packageName": "net.fptplay.ottbox"
      },
      {
-      "id": "tv6",
+      "id": "tv5",
       "title": "CòTiVi",
       "icon": "https://lh3.googleusercontent.com/d/1Uk4iFF6w7pfq2Cad3_22914VG8E6xeDd",
       "rating": 4.5,
       "version": "1.1.2",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
-        "https://lh3.googleusercontent.com/d/1Hfbxn8v9aEb8dL8ZedKp3zPZKuzSD9Cs",
+        "https://lh3.googleusercontent.com/d/1ajSuZ_y4w85r_vryp4ls77wEXdFIxtqI",
         "https://lh3.googleusercontent.com/d/1K7TajVCkGpLOcSp3Bm75skfTRTL-5qbf" ],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/CoTiViV1.1.1_2.apk",
       "packageName": "com.cofvuong.tivi"
@@ -643,6 +643,7 @@
     }
   ]
 }
+
 
 
 
