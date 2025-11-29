@@ -1,11 +1,10 @@
 {
   "show": true,
   "message": "Chào mừng đến với BaoStore kho ứng dụng cho Android TV, Đang trong thời gian cập nhật ứng dụng - Được sỡ hữu bởi AnhBaoTV... ",
-  "background_url": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/background.jpg",
-  "backgroundColor": "#FF0000",
   "labelColor": "#f00202", 
   "textColor": "#9bd4fa"   
 }
+
 
 
 
