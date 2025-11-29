@@ -170,11 +170,11 @@
       "title": "Rổ giải trí",
       "icon": "https://lh3.googleusercontent.com/d/1vGEBOiJ_6lxtusl6bCRbaVFf-PZmU2DB",
       "rating": 4.3,
-      "version": "1.1.7",
+      "version": "1.1.8",
       "description": "Kênh giải trí Xem phim, trực tiếp các giải bóng đá hàng đầu và thể thao đặc sắc.",
       "screenshots": ["https://lh3.googleusercontent.com/d/1B0QOetRzPUOULtg-sG-49K5IsfAVi34Z",
       "https://lh3.googleusercontent.com/d/1_uKJTtmfNO0Px0T19-tpWKjNh35m_6EZ"],
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/R.Phim.v.1.1.7.apk",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/R.Gi.i.Tri.v.1.1.8.apk",
       "packageName": "com.rophim.android.tv"
     },
     {
@@ -643,6 +643,7 @@
     }
   ]
 }
+
 
 
 
