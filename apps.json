@@ -43,8 +43,7 @@
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1wxsCLdYcEGQGp1WUYxlTRheK8dJSE3Kv",
-        "https://lh3.googleusercontent.com/d/133vlKybVu5IXHqHnE6exaGkcZex9Xscc"
-      ],
+        "https://lh3.googleusercontent.com/d/133vlKybVu5IXHqHnE6exaGkcZex9Xscc"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/dltv.apk",
       "packageName": "com.dinhlap.tivi"
     },
@@ -150,7 +149,7 @@
       "description": "TizenTube mod gióng youtube gốc ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo (Cần xoá youtube gốc).",
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1XycZbgkhOOpzZHFEEUDaWndNmGtljQof",
-      "https://lh3.googleusercontent.com/d/1r4Qq8tM2QFYSaIOK5Xs2QCeIQGdidLTI"],
+        "https://lh3.googleusercontent.com/d/1r4Qq8tM2QFYSaIOK5Xs2QCeIQGdidLTI"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/cobalt.youtube.tv.apk",
       "packageName": "com.google.android.youtube.tv"
     },
@@ -693,6 +692,7 @@
     }
   ]
 }
+
 
 
 
