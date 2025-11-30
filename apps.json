@@ -73,6 +73,32 @@
         "https://lh3.googleusercontent.com/d/1tMIok_HwAASINy4kqwO0P0Jda1bRZ5wg" ],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/FPTPLAY.v.7.25.10.apk",
       "packageName": "net.fptplay.ottbox"
+     },
+    {
+      "id": "tv7",
+      "title": "TV360",
+      "icon": "https://lh3.googleusercontent.com/d/1FoKzNUQTs3xHEGGQgyE3nWAtTQD06sML",
+      "rating": 4.5,
+      "version": "5.4",
+      "description": "Ứng dụng xem truyền hình,thể thao trực tuyến chính thức của Đài Truyền hình Việt Nam.",
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1_qvnOvRkZaVfETyXuEOf8-5eqXj9mU8U",
+        "https://lh3.googleusercontent.com/d/1aaSyJx-feTrl2BGw-iPyhKzPmsd7ylvK" ],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/TV360.tv.v.5.4.apk",
+      "packageName": "com.viettel.tv360.tv"
+     },
+    {
+      "id": "tv8",
+      "title": "MyTV",
+      "icon": "https://lh3.googleusercontent.com/d/1QTGCurhprOTVHg_giXpadgMJ6mC4_X4j",
+      "rating": 4.5,
+      "version": "3.52",
+      "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1wlPEYWGqimDn9ZIJZcnv7PGaokADTV_Z",
+        "https://lh3.googleusercontent.com/d/1F6dMCgP2W_EsYSyVwyUa5ndUOZT-LZfL" ],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/MyTV.v.3.52.0_431_2206141108.apk",
+      "packageName": "vn.mytvnet.b2cott"
      }
   ],
   "Youtube": [
@@ -643,6 +669,7 @@
     }
   ]
 }
+
 
 
 
