@@ -210,7 +210,9 @@
       "rating": 4.3,
       "version": "4.6.0",
       "description": "(pas:nghien android tv)là kênh giả trí được tích họp nhiều nguồn bạn có thể chọn.",
-      "screenshots": ["https://lh3.googleusercontent.com/d/13tOY-VkA1Oc4BbGgthEOJaTlJfqvv-_8","https://lh3.googleusercontent.com/d/1W5-lwbfwbOBsldItOTy2CM2E0c-FiYbK"],
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/13tOY-VkA1Oc4BbGgthEOJaTlJfqvv-_8",
+        "https://lh3.googleusercontent.com/d/1W5-lwbfwbOBsldItOTy2CM2E0c-FiYbK"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/CloudStream.MOD.apk",
       "packageName": "com.lagradost.cloudstream3"
     },
@@ -454,17 +456,28 @@
   "Quản lý file-Bluetooth": [
     {
       "id": "new1",
-      "title": "Filemanager",
-      "icon": "https://lh3.googleusercontent.com/d/1SsmOeivqfW1LvRAuJcYKfZGSRoMWf3ab",
+      "title": "MX Player Pro",
+      "icon": "https://lh3.googleusercontent.com/d/1WUzrkRbFX2txUOpDRmxg8it5pUajL6Vx",
       "rating": 5.0,
-      "version": "1.0.3",
-      "description": "File manager là một ứng dụng hoặc công cụ giúp người dùng quản lý tệp và thư mục trên AndroidTV.",
-      "screenshots": ["https://lh3.googleusercontent.com/d/1c1XvlDe58pQKC1aC9peZzC84aIymVJ6x","https://lh3.googleusercontent.com/d/1FGkxHGWRWiDb5795mHCA4H4ddhujOyBh"],
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Filemanager.v.3.2.2.apk",
-      "packageName": "com.hitv.explore"
+      "version": "1.93",
+      "description": "MX Player Pro là Phát được nhiều định dạng video và âm thanh khác nhau AndroidTV.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1Gdpxeawad7IlXFwKYnN8fuP2p_OxIZKA","https://lh3.googleusercontent.com/d/10HfkSXt-BqyR1agFxJc8B-BGR67GJYWn"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Videoplayer.pro.v.1.93.4.apk",
+      "packageName": "com.mxtech.videoplayer.pro"
     },
     {
       "id": "new2",
+      "title": "Nova Video Player",
+      "icon": "https://lh3.googleusercontent.com/d/1xSVv3lUjvg5xZoUCWn1fx3ITGL_zllNI",
+      "rating": 5.0,
+      "version": "1.0.3",
+      "description": "Nova Video Player là một ứng dụng phát video trên điện thoại Android, hỗ trợ xem nhiều định dạng video, stream trực tuyến, tải xuống và sử dụng phụ đề. Nó cung cấp trải nghiệm xem liền mạch cả video ngoại tuyến và trực tuyến, miễn phí và không có quảng cáo.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1iJEQ4gkQoBc9ypDfD9ec3b6HD3HFRE6d","https://lh3.googleusercontent.com/d/13EMFF8svA0l3uQ_0kYUmwPQJ5lo7TQpJ"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Nova.Video.Player.v.6.4.22-20251118.0944.apk",
+      "packageName": "org.courville.nova"
+    },
+    {
+      "id": "new3",
       "title": "xplorer",
       "icon": "https://lh3.googleusercontent.com/d/12YgqSsn1zALPLcbwDMl10vyhkEOwpdf7",
       "rating": 5.0,
@@ -475,7 +488,7 @@
       "packageName": "com.lonelycatgames.Xplore"
     },
     {
-      "id": "new3",
+      "id": "new4",
       "title": "File Manager Plus",
       "icon": "https://lh3.googleusercontent.com/d/1rkFBLNZEm_nlJGZ2iUbvukXxMaCRQ9BS",
       "rating": 5.0,
@@ -486,7 +499,18 @@
       "packageName": "com.alphainventor.filemanager"
     },
     {
-      "id": "new4",
+      "id": "new5",
+      "title": "Filemanager",
+      "icon": "https://lh3.googleusercontent.com/d/1SsmOeivqfW1LvRAuJcYKfZGSRoMWf3ab",
+      "rating": 5.0,
+      "version": "1.0.3",
+      "description": "File manager là một ứng dụng hoặc công cụ giúp người dùng quản lý tệp và thư mục trên AndroidTV.",
+      "screenshots": ["https://lh3.googleusercontent.com/d/1c1XvlDe58pQKC1aC9peZzC84aIymVJ6x","https://lh3.googleusercontent.com/d/1FGkxHGWRWiDb5795mHCA4H4ddhujOyBh"],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/Filemanager.v.3.2.2.apk",
+      "packageName": "com.hitv.explore"
+    },
+    {
+      "id": "new6",
       "title": "Send Files to TV",
       "icon": "https://lh3.googleusercontent.com/d/1wHIW89YYIMS-p2rRlk1OebkTcpcyyq0a",
       "rating": 5.0,
@@ -497,7 +521,7 @@
       "packageName": "com.yablio.sendfilestotv"
     },
     {
-      "id": "new5",
+      "id": "new7",
       "title": "Tìm Bluetooth",
       "icon": "https://lh3.googleusercontent.com/d/1C6Ys7U8rAUlMgHA-PyzQDFZwO-ndVSPa",
       "rating": 5.0,
@@ -508,7 +532,7 @@
       "packageName": "com.zdworksinc.bluetoothtvscanner"
     },
     {
-      "id": "new6",
+      "id": "new8",
       "title": "Bluetooth Remote",
       "icon": "https://lh3.googleusercontent.com/d/1ZL6saf9FSDScKbOfScvpLNHnXY6Iv5Tz",
       "rating": 5.0,
@@ -669,6 +693,7 @@
     }
   ]
 }
+
 
 
 
