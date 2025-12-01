@@ -572,7 +572,7 @@
       "rating": 5.0,
       "version": "2.1.0",
       "description": "Hổ trợ tìm kiếm giọng nói,Gọi kênh truyền hình,youtube,tìm phim vv...Lưu ý không cần gỡi lỗi usb(ADB) có hướng dẫn khi cài",
-      "screenshots": ["https://lh3.googleusercontent.com/d/12NRhZMguvF1kCmM-K9bcfb7Qu70B1pgm","https://lh3.googleusercontent.com/d/1GtYkCseeyceY7jGWdHjAOfqb-cv313ch"],
+      "screenshots": ["https://lh3.googleusercontent.com/d/1N3Ji1mjWLDnbfPSkWYSPHwNXECZ6QfCpo","https://lh3.googleusercontent.com/d/1GtYkCseeyceY7jGWdHjAOfqb-cv313ch"],
       "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/MapVoice.v.2.1.0.apk",
       "packageName": "com.linor.vn.mapVoice"
     },
@@ -692,6 +692,7 @@
     }
   ]
 }
+
 
 
 
