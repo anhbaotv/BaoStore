@@ -62,6 +62,19 @@
      },
      {
       "id": "tv6",
+      "title": "vAppTV",
+      "icon": "https://lh3.googleusercontent.com/d/1_QS9kqQz7uKyD0j6tWZE7AtVwDhOOEBv",
+      "rating": 4.5,
+      "version": "1.0.2",
+      "description": "Ứng dụng xem truyền hình thể thao trực tuyến chính thức của Đài Truyền hình Việt Nam.",
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1SNt1amvLvWZHWx9IZGQ4xzLeliUN2OJ_",
+        "https://lh3.googleusercontent.com/d/1VCueOoU8akM1bH03wA-VQaDPPzhJMxML" ],
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/vapptv.apk",
+      "packageName": "com.vproject.vapptv"
+     },
+     {
+      "id": "tv7",
       "title": "FPTPlay",
       "icon": "https://lh3.googleusercontent.com/d/1vmuSa3KvAKxcvlGpxQiaCnNNsCfaIscC",
       "rating": 4.5,
@@ -74,7 +87,7 @@
       "packageName": "net.fptplay.ottbox"
      },
     {
-      "id": "tv7",
+      "id": "tv8",
       "title": "TV360",
       "icon": "https://lh3.googleusercontent.com/d/1FoKzNUQTs3xHEGGQgyE3nWAtTQD06sML",
       "rating": 4.5,
@@ -87,7 +100,7 @@
       "packageName": "com.viettel.tv360.tv"
      },
     {
-      "id": "tv8",
+      "id": "tv9",
       "title": "MyTV",
       "icon": "https://lh3.googleusercontent.com/d/1QTGCurhprOTVHg_giXpadgMJ6mC4_X4j",
       "rating": 4.5,
@@ -692,6 +705,7 @@
     }
   ]
 }
+
 
 
 
