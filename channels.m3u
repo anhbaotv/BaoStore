@@ -51,39 +51,78 @@ https://live.fptplay53.net/epzhd1/htvcphunu_vhls.smil/chunklist.m3u8
 https://live.fptplay53.net/epzhd1/htvcthuanviethd_vhls.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.ibb.co/vhLGXcK/cchtvcplus.webp" tvg-id="fd51b6c6836ec943e7ad21f0036f879e",HTVC+
 https://live.fptplay53.net/epzhd1/htvcplus_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="sctv1hd" group-title="Truyền Hình" tvg-logo="https://i.ibb.co/yBnxfhH/sctv1-hd.png",SCTV1
-https://liveh12.seenow.vn/hls/SCTV1/index.m3u8
-#EXTINF:-1 tvg-id="sctv2hd" group-title="Truyền Hình" tvg-logo="https://i.ibb.co/VqNpntW/sctv2-hd.png",SCTV2
+#EXTINF:0, SCTV1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh12.vtvprime.vn/hls/SCTV1/03.m3u8
+#EXTINF:0, SCTV2 HD - TODAY TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
 https://freem3u.xyz/api/live/play.m3u8?vid=201
-#EXTINF:-1 tvg-id="sctv3hd" group-title="Truyền Hình" tvg-logo="https://i.ibb.co/pwy6LhX/sctv3-hd.png",SCTV3
-https://liveh34.seenow.vn/hls/SCTV3/index.m3u8
-#EXTINF:-1 tvg-id="sctv4hd" group-title="Truyền Hình" tvg-logo="https://i.ibb.co/rHsWYhW/sctv4-hd.png",SCTV4
-https://liveh12.seenow.vn/hls/SCTV4/index.m3u8
-#EXTINF:-1 tvg-id="sctv6hd" group-title="Truyền Hình" tvg-logo="https://i.ibb.co/HpgQgB5/logo26072108-sctv6-hd.png",SCTV6
-http://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/q52fk4p/logo26072108-sctv7-hd.png" group-title="Truyền Hình",SCTV7
-https://liveh34.seenow.vn/hls/SCTV7/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/1Z8k49W/logo26072108-sctv8.png" group-title="Truyền Hình",SCTV8
-https://liveh34.seenow.vn/hls/SCTV8/index.m3u8
-#EXTINF:-1 tvg-id="sctv9hd" group-title="Truyền Hình" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/SCTV9.png",SCTV9
+#EXTINF:0, SCTV3 - SEE TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://freem3u.xyz/api/live/play.m3u8?tid=sctv9
-#EXTINF:-1 tvg-logo="https://i.ibb.co/88mFbmH/logo26072108-sctv11-hd.png" group-title="Truyền Hình",SCTV11
-https://liveh34.seenow.vn/hls/SCTV11/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hxNHc7x/logo26072108-sctv12-hd.png" group-title="Truyền Hình",SCTV12
-https://liveh34.seenow.vn/hls/SCTV12/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/3pQsyPf/logo26072108-sctv13-hd.png" group-title="Truyền Hình",SCTV13
-https://liveh34.seenow.vn/hls/SCTV13/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wLKj69Q/logo26072108-sctv14-hd.png" group-title="Truyền Hình",SCTV14
-https://liveh34.seenow.vn/hls/SCTV14/index.m3u8
-#EXTINF:-1 tvg-id="Truyền Hình" group-title="SCTV" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/sctv16.png", SCTV16 HD
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV3/03.m3u8
+#EXTINF:0, SCTV4 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://freem3u.xyz/api/live/play.m3u8?tid=sctv16
-#EXTINF:-1 tvg-logo="https://i.ibb.co/LY0CW6H/logo26072108-sctv18-hd.png" group-title="Truyền Hình",SCTV18
-https://liveh34.seenow.vn/hls/SCTV18/index.m3u8
-#EXTINF:-1 tvg-id="sctv19hd" group-title="Truyền Hình" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/sctv19.png",SCTV19
+#EXTVLCOPT:network-caching=1000
+https://liveh12.vtvprime.vn/hls/SCTV4/03.m3u8
+#EXTINF:0, SCTV6 HD
+#EXTVLCOPT:http-user-agent=VThanhTivi
+#EXTVLCOPT:network-caching=1000
+https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:0, SCTV7 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://freem3u.xyz/api/live/play.m3u8?tid=sctv19
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV7/03.m3u8
+#EXTINF:0, SCTV8 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV8/03.m3u8
+#EXTINF:0, SCTV9 HD
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV9/03.m3u8
+#EXTINF:0, SCTV10
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV10/index.m3u8
+#EXTINF:0, SCTV11 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV11/03.m3u8
+#EXTINF:0, SCTV12 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV12/03.m3u8
+#EXTINF:0, SCTV13 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV13/03.m3u8
+#EXTINF:0, SCTV14 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV14/03.m3u8
+#EXTINF:0, SCTV16 HD
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV16/04.m3u8
+#EXTINF:0, SCTV18 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV18/03.m3u8
+#EXTINF:0, SCTV19 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV19/03.m3u8
+#EXTINF:0, SCTV20 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV20/03.m3u8
+#EXTINF:0, SCTV21 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV21/03.m3u8
+#EXTINF:0,:SCTV22 HD
+#EXTVLCOPT:network-caching=1000
+https://liveh34.vtvprime.vn/hls/SCTV22/04.m3u8
 #EXTINF:24, SCTV Phim T#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:network-caching=1000
 https://liveh12.vtvprime.vn/hls/SCTVPHIM/03.m3u8
@@ -562,6 +601,7 @@ https://tyt-xumo-us.amagi.tv/hls/amagi_hls_data_tytnetwor-tyt-xumo/CDN/master.m3
 https://dbrb49pjoymg4.cloudfront.net/10001/99951197/hls/playlist.m3u8?ads.xumo_channelId=99951197
 #EXTINF:-1 group-title="Truyền Hình"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Today_logo.svg/800px-Today_logo.svg.png",Today All Day
 https://d4whmvwm0rdvi.cloudfront.net/10007/99991245/hls/master.m3u8?ads.xumo_channelId=99991245
+
 
 
 
