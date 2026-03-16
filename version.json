@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.0.8",
-  "update_url": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoStore_v1.0.8.apk",
-  "changelog": "- Thay đổi nền offline,banner,icon.\n- Tăng tốc độ tải ảnh mượt hơn.\n- Ảnh vừa khung app ."
+  "latest_version": "1.0.9",
+  "update_url": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoStore_v1.0.9.apk",
+  "changelog": "- Fix lỗi di chuyển và vị trí app.\n- Đổi giao diện tìm kiếm và phím ảo.\n- Ảnh vừa khung app ."
 }
