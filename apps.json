@@ -3,7 +3,7 @@
       {
             "id": "tv1",
             "title": "AnhBaoTV ",
-            "packageName": "com.kt.apps.media.xemtv.beta",
+            "packageName": "com.anhbaotv.baotv",
             "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/ic_launcher.png",
             "version": "1.0.2",
             "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoTV_1.0.2.apk",
