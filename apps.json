@@ -6,12 +6,14 @@
             "packageName": "com.anhbaotv.baotv",
             "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/ic_launcher.png",
             "version": "1.0.2",
+            "isLocked": true,  <--- CHỈ CẦN THÊM DÒNG NÀY ĐỂ KHÓA APP
             "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoTV_1.0.2.apk",
             "description": "Xem TV online, kênh địa phương, thể thao.",
             "rating": 4.2,
             "screenshots": [
                 "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/5.png",
                 "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/6.png"
+            "description": "App này yêu cầu mã để tải."
             ]
         },
         {
