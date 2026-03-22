@@ -1,7 +1,7 @@
 {
     "Truyền Hình": [
         {
-            "id": "tv1",
+            "id": "ABTV",
             "title": "AnhBaoTV",
             "packageName": "com.anhbaotv.baotv",
             "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/ic_launcher.png",
