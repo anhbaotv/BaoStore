@@ -22,8 +22,10 @@
             "packageName": "com.kt.apps.media.xemtv.beta",
             "icon": "https://lh3.googleusercontent.com/d/1tKga1m7Vg7UeevzAmy-bmfdT5YF44qad",
             "version": "25.04.06.B",
+            "oldVersion": "",
             "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk",
-            "description": "Xem TV online, kênh địa phương, thể thao.",
+            "updateUrl": "https://github.com/anhbaotv/BaoTV/releases/download/BaoTV/BaoTV_1.0.7.apk",
+            "description": "",
             "rating": 4.2,
             "screenshots": [
                 "https://lh3.googleusercontent.com/d/1kaAxJK0l5umTlPU0tp3kCZrS1_gDdA0w"
