@@ -6,7 +6,6 @@
             "packageName": "com.anhbaotv.baotv",
             "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/ic_launcher.png",
             "version": "1.0.2",
-            "isLocked": true,
             "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoTV_1.0.2.apk",
             "updateUrl": "link_ban_moi_1.0.3.apk",
             "description": "App này yêu cầu mã để tải. Xem TV online, kênh địa phương, thể thao.",
