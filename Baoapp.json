@@ -169,30 +169,32 @@
             "title": "SmartTube(stable)",
             "icon": "https://lh3.googleusercontent.com/d/1nDFoughGJVkS9iVqOKSrDuQqzUg6VRdc",
             "rating": 4,
-            "version": "30.48",
+            "version": "31.30s",
             "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
             "screenshots": [
                 "https://lh3.googleusercontent.com/d/1i6QHWkn4TLAEejn8FIEyUU1V1LJEKhFp",
                 "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"
             ],
-            "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube_stable_30.48_armeabi-v7a.apk",
+            "downloadUrl": "https://github.com/yuliskov/SmartTube/releases/download/31.30s/SmartTube_stable_31.30_arm64-v8a.apk",
             "packageName": "com.teamsmart.videomanager.tv",
-            "category_name": "Youtube"
+            "category_name": "Youtube",
+            "changelog": "Tính năng mới:\n- UI: added rounded card corners (Settings/UI/Misc/Rounded card corners - enabled by default)\r"
         },
         {
             "id": "Youtube3",
             "title": "SmartTube(beta)",
             "icon": "https://lh3.googleusercontent.com/d/1Xr4OneYRA30hOmhTfFeO5Tts8KyJhfxJ",
             "rating": 4,
-            "version": "30.55",
+            "version": "31.30",
             "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
             "screenshots": [
                 "https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU",
                 "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"
             ],
-            "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/SmartTube_beta_30.55_armeabi-v7a.apk",
+            "downloadUrl": "https://github.com/yuliskov/SmartTube/releases/download/31.30/SmartTube_beta_31.30_arm64-v8a.apk",
             "packageName": "com.teamsmart.videomanager.tv",
-            "category_name": "Youtube"
+            "category_name": "Youtube",
+            "changelog": "Tính năng mới:\n- Screen dimming: suppress screensaver fix"
         },
         {
             "id": "Youtube4",
