@@ -17,7 +17,7 @@
             ]
         },
         {
-            "id": "tv2",
+            "id": "iMediaTV",
             "title": "iMediaTV ",
             "packageName": "com.kt.apps.media.xemtv.beta",
             "icon": "https://lh3.googleusercontent.com/d/1tKga1m7Vg7UeevzAmy-bmfdT5YF44qad",
@@ -32,7 +32,7 @@
             ]
         },
         {
-            "id": "tv3",
+            "id": "MonsterTV",
             "title": "MonsterTV",
             "icon": "https://lh3.googleusercontent.com/d/1LHHZiXGddPnq-H7M812RAXdrQsDglgfs",
             "rating": 4.2,
@@ -47,7 +47,7 @@
             "category_name": "Truyền Hình"
         },
         {
-            "id": "tv4",
+            "id": "VietPlay TV",
             "title": "VietPlay TV",
             "icon": "https://lh3.googleusercontent.com/d/1zKZ1TsLjq7rpVwcTLGnZIR0QLmVSFROG",
             "rating": 4.5,
@@ -61,7 +61,7 @@
             "category_name": "Truyền Hình"
         },
         {
-            "id": "tv5",
+            "id": "DLTivi",
             "title": "DLTivi",
             "icon": "https://lh3.googleusercontent.com/d/1wxsCLdYcEGQGp1WUYxlTRheK8dJSE3Kv",
             "rating": 4.5,
@@ -76,7 +76,7 @@
             "category_name": "Truyền Hình"
         },
         {
-            "id": "tv6",
+            "id": "CòTiVi",
             "title": "CòTiVi",
             "icon": "https://lh3.googleusercontent.com/d/1Uk4iFF6w7pfq2Cad3_22914VG8E6xeDd",
             "rating": 4.5,
@@ -91,7 +91,7 @@
             "category_name": "Truyền Hình"
         },
         {
-            "id": "tv7",
+            "id": "vAppTV",
             "title": "vAppTV",
             "icon": "https://lh3.googleusercontent.com/d/1_QS9kqQz7uKyD0j6tWZE7AtVwDhOOEBv",
             "rating": 4.5,
@@ -106,7 +106,7 @@
             "category_name": "Truyền Hình"
         },
         {
-            "id": "tv8",
+            "id": "FPTPlay",
             "title": "FPTPlay",
             "icon": "https://lh3.googleusercontent.com/d/1vmuSa3KvAKxcvlGpxQiaCnNNsCfaIscC",
             "rating": 4.5,
@@ -121,7 +121,7 @@
             "category_name": "Truyền Hình"
         },
         {
-            "id": "tv9",
+            "id": "TV360",
             "title": "TV360",
             "icon": "https://lh3.googleusercontent.com/d/1FoKzNUQTs3xHEGGQgyE3nWAtTQD06sML",
             "rating": 4.5,
@@ -136,7 +136,22 @@
             "category_name": "Truyền Hình"
         },
         {
-            "id": "tv10",
+            "id": "VTVCab",
+            "title": "VTVCab",
+            "icon": "https://github.com/anhbaotv/Store-Anh/main/VTVon_icon.png",
+            "rating": 4.5,
+            "version": "5.4",
+            "description": "Ứng dụng xem truyền hình,thể thao trực tuyến chính thức của Đài Truyền hình Việt Nam.",
+            "screenshots": [
+                "https://lh3.googleusercontent.com/d/1_qvnOvRkZaVfETyXuEOf8-5eqXj9mU8U",
+                "https://lh3.googleusercontent.com/d/1aaSyJx-feTrl2BGw-iPyhKzPmsd7ylvK"
+            ],
+            "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/TV360.tv.v.5.4.apk",
+            "packageName": "com.viettel.tv360.tv",
+            "category_name": "Truyền Hình"
+        },
+        {
+            "id": "MyTV",
             "title": "MyTV",
             "icon": "https://lh3.googleusercontent.com/d/1QTGCurhprOTVHg_giXpadgMJ6mC4_X4j",
             "rating": 4.5,
