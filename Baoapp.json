@@ -188,16 +188,16 @@
             "title": "SmartTube(beta)",
             "icon": "https://lh3.googleusercontent.com/d/1Xr4OneYRA30hOmhTfFeO5Tts8KyJhfxJ",
             "rating": 4,
-            "version": "31.30",
+            "version": "31.37",
             "description": "Smarttube ứng dụng giải trí nghe nhạc ,xem phim,vv...được loại bỏ quảng cáo.",
             "screenshots": [
                 "https://lh3.googleusercontent.com/d/1N8wpmU5ZE2zC0EJTSsNneByxaoihDCVU",
                 "https://lh3.googleusercontent.com/d/1fAU7aVvB5L1ITDQpbHOlWH5HOxwGBVJX"
             ],
-            "downloadUrl": "https://github.com/yuliskov/SmartTube/releases/download/31.30/SmartTube_beta_31.30_arm64-v8a.apk",
+            "downloadUrl": "https://github.com/yuliskov/SmartTube/releases/download/31.37/SmartTube_beta_31.37_arm64-v8a.apk",
             "packageName": "com.teamsmart.videomanager.tv",
             "category_name": "Youtube",
-            "changelog": "Tính năng mới:\n- Screen dimming: suppress screensaver fix"
+            "changelog": "Tính năng mới:\n- Player: auto-generated subtitles fix\r"
         },
         {
             "id": "Youtube4",
