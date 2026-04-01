@@ -140,14 +140,14 @@
             "title": "VTVCab",
             "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/VTVon_icon.png",
             "rating": 4.5,
-            "version": "5.4",
+            "version": "2.2.1",
             "description": "Ứng dụng xem truyền hình,thể thao trực tuyến chính thức của Đài Truyền hình Việt Nam.",
             "screenshots": [
                 "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/1.jpg",
                 "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/VTVCab.png"
             ],
-            "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/TV360.tv.v.5.4.apk",
-            "packageName": "com.viettel.tv360.tv",
+            "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Vtvcab_2.2.1.apk",
+            "packageName": "com.vtvcab.onTV",
             "category_name": "Truyền Hình"
         },
         {
