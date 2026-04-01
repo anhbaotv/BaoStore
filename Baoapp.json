@@ -153,13 +153,13 @@
         {
             "id": "VTVgo",
             "title": "VTVgo",
-            "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/blob/main/VTVgo_icon.png",
+            "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/VTVgo_icon.png",
             "rating": 4.5,
             "version": "11.12.30",
             "description": "Ứng dụng xem truyền hình,thể thao trực tuyến chính thức của Đài Truyền hình Việt Nam.",
             "screenshots": [
-                "https://raw.githubusercontent.com/anhbaotv/Store-Anh/blob/main/VTVgo1.png",
-                "https://raw.githubusercontent.com/anhbaotv/Store-Anh/blob/main/VTVgo2.png"
+                "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/VTVgo1.png",
+                "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/VTVgo2.png"
             ],
             "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Vtvgotv_11.12.30.apk",
             "packageName": "vn.vtv.vtvgotv",
