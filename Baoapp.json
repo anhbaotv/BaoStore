@@ -125,6 +125,23 @@
       ]
     },
     {
+      "id": "QUANGTV",
+      "title": "QUANGTV",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg",
+      "rating": 5,
+      "version": "520921",
+      "oldVersion": "",
+      "description": "Truyền hình IPTV",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Quantv.apk",
+      "updateUrl": "",
+      "packageName": "com.anhbaotv.app",
+      "isLocked": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg"
+      ]
+    },
+    {
       "id": "TV360",
       "title": "TV360",
       "icon": "https://lh3.googleusercontent.com/d/1FoKzNUQTs3xHEGGQgyE3nWAtTQD06sML",
@@ -212,23 +229,6 @@
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1wlPEYWGqimDn9ZIJZcnv7PGaokADTV_Z",
         "https://lh3.googleusercontent.com/d/1F6dMCgP2W_EsYSyVwyUa5ndUOZT-LZfL"
-      ]
-    },
-    {
-      "id": "QUANGTV",
-      "title": "QUANGTV",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg",
-      "rating": 5,
-      "version": "520921",
-      "oldVersion": "",
-      "description": "Truyền hình IPTV",
-      "changelog": "",
-      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Quantv.apk",
-      "updateUrl": "",
-      "packageName": "com.anhbaotv.app",
-      "isLocked": false,
-      "screenshots": [
-        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg"
       ]
     }
   ],
