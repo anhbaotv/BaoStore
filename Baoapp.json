@@ -180,15 +180,17 @@
     },
     {
       "id": "app_1775009024504",
-      "title": "Cập nhật",
-      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "title": "QUANGTV",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg",
       "rating": 5,
-      "version": "1.0",
+      "version": "520921",
       "description": "",
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Quantv.apk",
       "packageName": "com.anhbaotv.app",
       "isLocked": false,
-      "screenshots": []
+      "screenshots": [
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg"
+      ]
     }
   ],
   "Youtube": [
