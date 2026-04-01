@@ -125,21 +125,20 @@
       ]
     },
     {
-      "id": "FPTPlay",
-      "title": "FPTPlay",
-      "icon": "https://lh3.googleusercontent.com/d/1vmuSa3KvAKxcvlGpxQiaCnNNsCfaIscC",
-      "rating": 4.5,
-      "version": "7.25.10",
+      "id": "app_1775009024504",
+      "title": "QUANGTV",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg",
+      "rating": 5,
+      "version": "520921",
       "oldVersion": "",
-      "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
+      "description": "",
       "changelog": "",
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/FPTPLAY.v.7.25.10.apk",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Quantv.apk",
       "updateUrl": "",
-      "packageName": "net.fptplay.ottbox",
+      "packageName": "com.anhbaotv.app",
       "isLocked": false,
       "screenshots": [
-        "https://lh3.googleusercontent.com/d/1df9mNRKOlE-uN-o7RotqrJ_8z-1xZE9i",
-        "https://lh3.googleusercontent.com/d/1tMIok_HwAASINy4kqwO0P0Jda1bRZ5wg"
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg"
       ]
     },
     {
@@ -197,6 +196,24 @@
       ]
     },
     {
+      "id": "FPTPlay",
+      "title": "FPTPlay",
+      "icon": "https://lh3.googleusercontent.com/d/1vmuSa3KvAKxcvlGpxQiaCnNNsCfaIscC",
+      "rating": 4.5,
+      "version": "7.25.10",
+      "oldVersion": "",
+      "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/FPTPLAY.v.7.25.10.apk",
+      "updateUrl": "",
+      "packageName": "net.fptplay.ottbox",
+      "isLocked": false,
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1df9mNRKOlE-uN-o7RotqrJ_8z-1xZE9i",
+        "https://lh3.googleusercontent.com/d/1tMIok_HwAASINy4kqwO0P0Jda1bRZ5wg"
+      ]
+    },
+    {
       "id": "MyTV",
       "title": "MyTV",
       "icon": "https://lh3.googleusercontent.com/d/1QTGCurhprOTVHg_giXpadgMJ6mC4_X4j",
@@ -212,23 +229,6 @@
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1wlPEYWGqimDn9ZIJZcnv7PGaokADTV_Z",
         "https://lh3.googleusercontent.com/d/1F6dMCgP2W_EsYSyVwyUa5ndUOZT-LZfL"
-      ]
-    },
-    {
-      "id": "app_1775009024504",
-      "title": "QUANGTV",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg",
-      "rating": 5,
-      "version": "520921",
-      "oldVersion": "",
-      "description": "",
-      "changelog": "",
-      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Quantv.apk",
-      "updateUrl": "",
-      "packageName": "com.anhbaotv.app",
-      "isLocked": false,
-      "screenshots": [
-        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/QUANGTV/QUANTV.jpg"
       ]
     }
   ],
