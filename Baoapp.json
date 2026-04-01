@@ -1146,5 +1146,21 @@
       "screenshots": []
     }
   ],
-  "Camera": []
+  "Camera": [
+    {
+      "id": "app_1775022896812",
+      "title": "Eviz",
+      "icon": "https://lh3.googleusercontent.com/d/1Eq6J5fEA9ttNyh1WjQjTRsIJgjfDUvto",
+      "rating": 5,
+      "version": "1.0",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "",
+      "updateUrl": "",
+      "packageName": "com.anhbaotv.app",
+      "isLocked": false,
+      "screenshots": []
+    }
+  ]
 }
