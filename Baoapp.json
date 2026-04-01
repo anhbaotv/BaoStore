@@ -230,6 +230,24 @@
         "https://lh3.googleusercontent.com/d/1wlPEYWGqimDn9ZIJZcnv7PGaokADTV_Z",
         "https://lh3.googleusercontent.com/d/1F6dMCgP2W_EsYSyVwyUa5ndUOZT-LZfL"
       ]
+    },
+    {
+      "id": "PCRTV",
+      "title": "Đang cập nhật",
+      "icon": "https://github.com/anhbaotv/Store-Anh/blob/main/PCRTV/PCRTV_icon.jpg",
+      "rating": 5,
+      "version": "4.0.7",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "",
+      "updateUrl": "",
+      "packageName": "com.anhbaotv.app",
+      "isLocked": false,
+      "screenshots": [
+        "https://github.com/anhbaotv/Store-Anh/blob/main/PCRTV/PCRTV1.png",
+        "https://github.com/anhbaotv/Store-Anh/blob/main/PCRTV/PCRTV2.png"
+      ]
     }
   ],
   "Youtube": [
