@@ -1,6 +1,24 @@
 {
   "Truyền Hình": [
     {
+      "id": "ABTV",
+      "title": "AnhBaoTV",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/ic_launcher.png",
+      "rating": 4.2,
+      "version": "1.0.7",
+      "oldVersion": "1.0.2",
+      "description": "App này yêu cầu mã để tải. Xem TV online, kênh địa phương, thể thao.",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoTV_1.0.2.apk",
+      "updateUrl": "https://github.com/anhbaotv/BaoTV/releases/download/BaoTV/BaoTV_1.0.7.apk",
+      "packageName": "com.anhbaotv.baotv",
+      "isLocked": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/5.png",
+        "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/6.png"
+      ]
+    },
+    {
       "id": "iMediaTV",
       "title": "iMediaTV ",
       "icon": "https://lh3.googleusercontent.com/d/1tKga1m7Vg7UeevzAmy-bmfdT5YF44qad",
@@ -211,24 +229,6 @@
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1wlPEYWGqimDn9ZIJZcnv7PGaokADTV_Z",
         "https://lh3.googleusercontent.com/d/1F6dMCgP2W_EsYSyVwyUa5ndUOZT-LZfL"
-      ]
-    },
-    {
-      "id": "ABTV",
-      "title": "AnhBaoTV",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/ic_launcher.png",
-      "rating": 4.2,
-      "version": "1.0.7",
-      "oldVersion": "1.0.2",
-      "description": "App này yêu cầu mã để tải. Xem TV online, kênh địa phương, thể thao.",
-      "changelog": "",
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/BaoTV_1.0.2.apk",
-      "updateUrl": "https://github.com/anhbaotv/BaoTV/releases/download/BaoTV/BaoTV_1.0.7.apk",
-      "packageName": "com.anhbaotv.baotv",
-      "isLocked": false,
-      "screenshots": [
-        "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/5.png",
-        "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/6.png"
       ]
     }
   ],
