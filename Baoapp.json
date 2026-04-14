@@ -58,11 +58,11 @@
       "title": "VietPlay TV",
       "icon": "https://lh3.googleusercontent.com/d/1zKZ1TsLjq7rpVwcTLGnZIR0QLmVSFROG",
       "rating": 4.5,
-      "version": "2.2.0",
+      "version": "2.3",
       "oldVersion": "",
       "description": "Ứng dụng xem truyền hình trực tuyến chính thức của Đài Truyền hình Việt Nam.",
       "changelog": "",
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/VietPlay.TV.v.2.2.apk",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Vietplaytv_2.3.apk",
       "updateUrl": "",
       "packageName": "com.nghenhin24h.vietplaytv",
       "isLocked": false,
@@ -247,6 +247,24 @@
       "screenshots": [
         "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/PCRTV/PCRTV1.png",
         "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/PCRTV/PCRTV2.png"
+      ]
+    },
+    {
+      "id": "HDtivi",
+      "title": "HDTV",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HDtivi%20logo.png",
+      "rating": 5.0,
+      "version": "1.1.1",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/HDtivi_1.1.1.apk",
+      "updateUrl": "",
+      "packageName": "com.tvonline.hdtv",
+      "isLocked": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HDtivi1.png",
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HDtivi2.png"
       ]
     }
   ],
