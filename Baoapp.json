@@ -230,6 +230,24 @@
         "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/PCRTV/PCRTV1.png",
         "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/PCRTV/PCRTV2.png"
       ]
+    },
+    {
+      "id": "app_1776159985314",
+      "title": "BaoTV",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/BaoTV%20logo.png",
+      "rating": 5.0,
+      "version": "1.0",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "",
+      "updateUrl": "",
+      "packageName": "com.anhbaotv.Baotv",
+      "isLocked": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/BaoTV1.png",
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/BaoTV2.png"
+      ]
     }
   ],
   "Youtube": [
