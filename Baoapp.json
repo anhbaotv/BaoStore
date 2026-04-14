@@ -3,19 +3,19 @@
     {
       "id": "app_1776159985314",
       "title": "BaoTV",
-      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/BaoTV%20logo.png",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/tv_banner.png",
       "rating": 5.0,
       "version": "1.0.8",
       "oldVersion": "",
       "description": "",
       "changelog": "",
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/BaoTV_1.0.8.apk",
       "updateUrl": "",
       "packageName": "com.anhbaotv.Baotv",
       "isLocked": false,
       "screenshots": [
-        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/BaoTV1.png",
-        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/BaoTV2.png"
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/AnhBaoTV1_1.0.8.png",
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/AnhBaoTV2_1.0.8.png"
       ]
     },
     {
