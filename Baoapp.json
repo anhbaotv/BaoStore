@@ -266,6 +266,42 @@
         "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HDtivi1.png",
         "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HDtivi2.png"
       ]
+    },
+    {
+      "id": "HTVC",
+      "title": "HTVC",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HTVlogo.png",
+      "rating": 5.0,
+      "version": "1.1.1",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/Hdtv_1.1.1.apk",
+      "updateUrl": "",
+      "packageName": "vn.com.tms.sonyflix",
+      "isLocked": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HTV1.png",
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/HTV2.png"
+      ]
+    },
+    {
+      "id": "SCTVonline",
+      "title": "SCTVonline",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/SCTV%20logo.png",
+      "rating": 5.0,
+      "version": "5.26.20",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/SCTV.online_5.26.20.apk",
+      "updateUrl": "",
+      "packageName": "io.vimai.sctvonline.androidtv",
+      "isLocked": false,
+      "screenshots": [
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/SCTV%20logo.png",
+        "https://raw.githubusercontent.com/anhbaotv/Store-Anh/main/TRUY%E1%BB%80N%20H%C3%8CNH/SCTV1.jpg"
+      ]
     }
   ],
   "Youtube": [
