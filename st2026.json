@@ -288,7 +288,7 @@
     {
       "id": "app_1782319869262",
       "title": "test",
-      "icon": "https://drive.google.com/uc?export=view&id=1GDoQeRvnpxlkBRNFB-TS34B676jW8S3H",
+      "icon": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/1782320866541_wc2026.png",
       "rating": 5.0,
       "version": "1.0",
       "oldVersion": "",
@@ -299,7 +299,8 @@
       "packageName": "com.anhboa.app",
       "isLocked": false,
       "screenshots": [
-        "https://drive.google.com/uc?export=view&id=17f9dIaRgkHemxBX_mblrXYOLU1caDf-T"
+        "https://drive.google.com/uc?export=view&id=17f9dIaRgkHemxBX_mblrXYOLU1caDf-T",
+        "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/1782320898481_LWC.jpg"
       ]
     }
   ],
