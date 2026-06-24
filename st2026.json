@@ -1,23 +1,6 @@
 {
   "Truyền Hình": [
     {
-      "id": "iMediaTV",
-      "title": "iMediaTV ",
-      "icon": "https://lh3.googleusercontent.com/d/1tKga1m7Vg7UeevzAmy-bmfdT5YF44qad",
-      "rating": 4.2,
-      "version": "25.04.06.B",
-      "oldVersion": "",
-      "description": "",
-      "changelog": "",
-      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk",
-      "updateUrl": "",
-      "packageName": "com.kt.apps.media.xemtv.beta",
-      "isLocked": false,
-      "screenshots": [
-        "https://lh3.googleusercontent.com/d/1kaAxJK0l5umTlPU0tp3kCZrS1_gDdA0w"
-      ]
-    },
-    {
       "id": "MonsterTV",
       "title": "MonsterTV",
       "icon": "https://lh3.googleusercontent.com/d/1LHHZiXGddPnq-H7M812RAXdrQsDglgfs",
@@ -33,6 +16,23 @@
       "screenshots": [
         "https://lh3.googleusercontent.com/d/1ZkJPi7b3TbqDF0yk6aBAkEmW1vAvaN_M",
         "https://lh3.googleusercontent.com/d/1CalZuyWbOl80qZ2av0mrYApboOBEvz9X"
+      ]
+    },
+    {
+      "id": "iMediaTV",
+      "title": "iMediaTV ",
+      "icon": "https://lh3.googleusercontent.com/d/1tKga1m7Vg7UeevzAmy-bmfdT5YF44qad",
+      "rating": 4.2,
+      "version": "25.04.06.B",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/pl/releases/download/ungdung/iMedia.TV.v.25.04.06.B.apk",
+      "updateUrl": "",
+      "packageName": "com.kt.apps.media.xemtv.beta",
+      "isLocked": false,
+      "screenshots": [
+        "https://lh3.googleusercontent.com/d/1kaAxJK0l5umTlPU0tp3kCZrS1_gDdA0w"
       ]
     },
     {
