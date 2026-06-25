@@ -302,6 +302,21 @@
         "https://drive.google.com/uc?export=view&id=17f9dIaRgkHemxBX_mblrXYOLU1caDf-T",
         "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/1782320898481_LWC.jpg"
       ]
+    },
+    {
+      "id": "app_1782352279237",
+      "title": "Get Out",
+      "icon": "https://raw.githubusercontent.com/anhbaotv/BaoStore/main/images/icons/1782352299411_11.png",
+      "rating": 5.0,
+      "version": "2.0",
+      "oldVersion": "",
+      "description": "",
+      "changelog": "",
+      "downloadUrl": "https://github.com/anhbaotv/BaoStore/releases/download/BaoStoreapp/1782352283134_getout.apk",
+      "updateUrl": "",
+      "packageName": "com.linor.vn.getout",
+      "isLocked": false,
+      "screenshots": []
     }
   ],
   "Youtube": [
