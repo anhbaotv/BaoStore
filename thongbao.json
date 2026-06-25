@@ -1,5 +1,5 @@
 {
-  "show": false,
+  "show": true,
   "message": "App dừng hoạt động ",
   "labelColor": "#f00202",
   "textColor": "#f7faf8"
